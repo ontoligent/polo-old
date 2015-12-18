@@ -228,7 +228,7 @@ class Polo:
                     with open(srcfiles['xml'][table]) as fd:
                         tree = etree.parse(fd)
                         for topic in tree.xpath('/topics/topic'):
-                            topic_id = topic.xpath('@id')[0]
+                            topic_id = 't'+topic.xpath('@id')[0]
                             total_tokens = topic.xpath('@totalTokens')[0]
                             sql1 = "UPDATE topic SET total_tokens = ? WHERE topic_id = ?"
                             cur.execute(sql1,[total_tokens,topic_id])                            
