@@ -12,7 +12,7 @@ To do:
    or else a database with a TRIAL table. Config files are fine to process but lack control.
 '''
 
-import sys, os, re, configparser, sqlite3, codecs
+import sys, os, re, configparser, sqlite3, codecs, xmltodict
 
 class Polo:
 
@@ -68,16 +68,19 @@ class Polo:
             'topic':{'fkeys':(),'defs':{}},
             'doctopic':{'fkeys':(),'defs':{}},
             'wordtopic':{'fkeys':(),'defs':{}},
+            'topicphrase':{'fkeys':(),'defs':{}},
             #'topicword':{'fkeys':(),'defs':{}}
             }
         self.tbl_defs['doc']['fkeys'] = ('doc_id', 'doc_label', 'doc_content')
         self.tbl_defs['doc']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', 'doc_content': 'TEXT' }
-        self.tbl_defs['topic']['fkeys'] = ('topic_id','topic_alpha','topic_words')
-        self.tbl_defs['topic']['defs'] = { 'topic_id': 'TEXT', 'topic_alpha': 'REAL', 'topic_words': 'TEXT' }
+        self.tbl_defs['topic']['fkeys'] = ('topic_id','topic_alpha','topic_words','total_tokens')
+        self.tbl_defs['topic']['defs'] = { 'topic_id': 'TEXT', 'topic_alpha': 'REAL', 'total_tokens': 'INTEGER', 'topic_words': 'TEXT' }
         self.tbl_defs['doctopic']['fkeys'] = ('doc_id','doc_label','_topics_')
         self.tbl_defs['doctopic']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', '_topics_': 'REAL' }
         self.tbl_defs['wordtopic']['fkeys'] = ('word_id', 'word_str', '_topics_')
         self.tbl_defs['wordtopic']['defs'] = { 'word_id': 'INTEGER', 'word_str': 'TEXT', '_topics_': 'INTEGER' }
+        self.tbl_defs['topicphrase']['fkeys'] = ('topic_id', 'topic_phrase','phrase_count', 'phrase_weight')
+        self.tbl_defs['topicphrase']['defs'] = {'topic_id': 'TEXT', 'topic_phrase': 'TEXT','phrase_count': 'INTEGER', 'phrase_weight': 'REAL'}
         #self.tbl_defs['topicword']['fkeys'] = ( 'word_str', '_topics_')
         #self.tbl_defs['topicword']['defs'] = {'word_str': 'TEXT', '_topics_': 'REAL'}
         self.tbl_sql = {}
@@ -95,21 +98,22 @@ class Polo:
     def import_model(self):
         n = self.mallet['train-topics']['num-topics']
     
-        srcfiles = {}
-        srcfiles['doc'] = self.mallet['import-file']['input']
-        srcfiles['topic'] = self.mallet['train-topics']['output-topic-keys']
-        srcfiles['doctopic'] = self.mallet['train-topics']['output-doc-topics']
-        srcfiles['wordtopic'] = self.mallet['train-topics']['word-topic-counts-file']
+        srcfiles = {'csv': {}, 'xml': {}}
+        srcfiles['csv']['doc'] = self.mallet['import-file']['input']
+        srcfiles['csv']['topic'] = self.mallet['train-topics']['output-topic-keys']
+        srcfiles['csv']['doctopic'] = self.mallet['train-topics']['output-doc-topics']
+        srcfiles['csv']['wordtopic'] = self.mallet['train-topics']['word-topic-counts-file']
+        srcfiles['xml']['topicphrase'] = self.mallet['train-topics']['xml-topic-phrase-report']
         #srcfiles['topicword'] = self.mallet['train-topics']['topic-word-weights-file']
         
         db_file = 'projects/%s/trials/%s/%s-%s.db' % (self.project,self.trial,self.project,self.trial)
         with sqlite3.connect(db_file) as conn:
             cur = conn.cursor()
                     
-            # Import the files
-            for table in self.tbl_sql:
-            
-                print('BOO',table)
+            # Import the CSV files
+            #for table in self.tbl_sql:
+            for table in srcfiles['csv']:
+                print('BOO csv',table)
 
                 # Drop or truncate the table
                 cur.execute('DROP TABLE IF EXISTS %s' % table)
@@ -117,7 +121,7 @@ class Polo:
                 conn.commit()
                 
                 # Open the source file
-                src_file = srcfiles[table]
+                src_file = srcfiles['csv'][table]
                 with codecs.open(src_file, "r", encoding='utf-8', errors='ignore') as src_data:
                 # with open(src_file,'r') as src_data:
                     print('BOO',src_file)
@@ -195,7 +199,8 @@ class Polo:
                             values.append("'t%s'" % row[0]) # topic_id
                             values.append('%s' % row[1]) # topic_alpha
                             values.append("'%s'" % row[2].replace("'","''")) # topic_list
-    		
+                            values.append('0') # Place holder for total_tokens until XML file is handled
+    		                          
                         #elif table == 'topicword':
                         #    continue # This is handled above
     		
@@ -210,7 +215,31 @@ class Polo:
                         sql2 = 'INSERT INTO `%s` (%s) VALUES (%s)' % (table,field_str,value_str)
                         cur.execute(sql2)
     		
-                    conn.commit() # Commit after each table source file
+                conn.commit() # Commit after each table
+            
+            for table in srcfiles['xml']:
+                print('BOO xml',table)
+                
+                if table == 'topicphrase':
+                    # Drop or truncate the table and then create it again
+                    cur.execute('DROP TABLE IF EXISTS %s' % table)
+                    cur.execute(self.tbl_sql[table])
+                    conn.commit()
+                    with open(srcfiles['xml'][table]) as fd:
+                        obj = xmltodict.parse(fd.read())
+                        for topic in obj['topics']['topic']:
+                            topic_id = topic['@id']
+                            total_tokens = topic['@totalTokens']
+                            sql1 = "UPDATE topic SET total_tokens = ? WHERE topic_id = ?"
+                            cur.execute(sql1,[total_tokens,topic_id])                            
+                            for phrase in topic['word']:
+                                phrase_weight = phrase['@weight']
+                                phrase_count = phrase['@count']
+                                phrase_string = phrase['#text']
+                                sql2 = 'INSERT INTO topicphrase (topic_id,topic_phrase,phrase_count,phrase_weight) VALUES (?,?,?,?)'
+                                cur.execute(sql2,[topic_id,phrase_string,phrase_count,phrase_weight])
+                conn.commit()
+                
             cur.close()
 
         return 1
