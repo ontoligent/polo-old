@@ -232,7 +232,7 @@ class Polo:
                             total_tokens = topic['@totalTokens']
                             sql1 = "UPDATE topic SET total_tokens = ? WHERE topic_id = ?"
                             cur.execute(sql1,[total_tokens,topic_id])                            
-                            for phrase in topic['word']:
+                            for phrase in topic['phrase']:
                                 phrase_weight = phrase['@weight']
                                 phrase_count = phrase['@count']
                                 phrase_string = phrase['#text']
