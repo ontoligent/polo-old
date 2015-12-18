@@ -1,643 +1,1042 @@
 <?xml version='1.0' ?>
 <topics>
-  <topic id="0" alpha="0.125" totalTokens="564" titles="armitage, good, hatch, case, move, loose, ice, ">
-	<word weight="0.04609929078014184" count="26">armitage</word>
-	<word weight="0.03900709219858156" count="22">good</word>
-	<word weight="0.03368794326241135" count="19">hatch</word>
-	<word weight="0.03368794326241135" count="19">case</word>
-	<word weight="0.026595744680851064" count="15">move</word>
-	<word weight="0.02127659574468085" count="12">loose</word>
-	<word weight="0.01950354609929078" count="11">ice</word>
-	<phrase weight="0.08108108108108109" count="3">grade mark</phrase>
-	<phrase weight="0.02702702702702703" count="1">executed passage</phrase>
-	<phrase weight="0.02702702702702703" count="1">ice carefully</phrase>
-	<phrase weight="0.02702702702702703" count="1">laserlight froze</phrase>
-	<phrase weight="0.02702702702702703" count="1">chair dole</phrase>
-	<phrase weight="0.02702702702702703" count="1">larger baseball</phrase>
-	<phrase weight="0.02702702702702703" count="1">write poem</phrase>
+  <topic id="0" alpha="0.4380872089281167" totalTokens="1255" titles="ice, construct, flatline, hosaka, kuang, program, matrix, virus, dixie, ">
+	<word weight="0.04302788844621514" count="54">ice</word>
+	<word weight="0.04143426294820717" count="52">construct</word>
+	<word weight="0.04143426294820717" count="52">flatline</word>
+	<word weight="0.028685258964143426" count="36">hosaka</word>
+	<word weight="0.024701195219123506" count="31">kuang</word>
+	<word weight="0.02151394422310757" count="27">program</word>
+	<word weight="0.0199203187250996" count="25">matrix</word>
+	<word weight="0.019123505976095617" count="24">virus</word>
+	<word weight="0.01752988047808765" count="22">dixie</word>
+	<phrase weight="0.019736842105263157" count="3">shark thing</phrase>
+	<phrase weight="0.013157894736842105" count="2">kuang virus</phrase>
+	<phrase weight="0.013157894736842105" count="2">virus program</phrase>
+	<phrase weight="0.013157894736842105" count="2">chinese program</phrase>
+	<phrase weight="0.013157894736842105" count="2">mark eleven</phrase>
+	<phrase weight="0.013157894736842105" count="2">flatline construct</phrase>
+	<phrase weight="0.013157894736842105" count="2">ashpool ice</phrase>
+	<phrase weight="0.006578947368421052" count="1">construct jacked sensation</phrase>
+	<phrase weight="0.006578947368421052" count="1">twin bank</phrase>
+	<phrase weight="0.006578947368421052" count="1">steal tomorrow</phrase>
   </topic>
-  <topic id="1" alpha="0.125" totalTokens="631" titles="cyberspace, trodes, left, military, turing, berne, make, ">
-	<word weight="0.02694136291600634" count="17">cyberspace</word>
-	<word weight="0.025356576862123614" count="16">trodes</word>
-	<word weight="0.022187004754358162" count="14">left</word>
-	<word weight="0.020602218700475437" count="13">military</word>
-	<word weight="0.01584786053882726" count="10">turing</word>
-	<word weight="0.01584786053882726" count="10">berne</word>
-	<word weight="0.01584786053882726" count="10">make</word>
-	<phrase weight="0.0425531914893617" count="2">morbid fear</phrase>
-	<phrase weight="0.02127659574468085" count="1">crushing seat</phrase>
-	<phrase weight="0.02127659574468085" count="1">code berne</phrase>
-	<phrase weight="0.02127659574468085" count="1">involved talking</phrase>
-	<phrase weight="0.02127659574468085" count="1">greens yellows</phrase>
-	<phrase weight="0.02127659574468085" count="1">software hottest</phrase>
-	<phrase weight="0.02127659574468085" count="1">colored silicon mounted</phrase>
+  <topic id="1" alpha="0.11021741626361287" totalTokens="420" titles="zion, babylon, aerol, wi, razor, mon, voice, dub, jah, ">
+	<word weight="0.04523809523809524" count="19">zion</word>
+	<word weight="0.0380952380952381" count="16">babylon</word>
+	<word weight="0.030952380952380953" count="13">aerol</word>
+	<word weight="0.02619047619047619" count="11">wi</word>
+	<word weight="0.02142857142857143" count="9">razor</word>
+	<word weight="0.01904761904761905" count="8">mon</word>
+	<word weight="0.01904761904761905" count="8">voice</word>
+	<word weight="0.016666666666666666" count="7">dub</word>
+	<word weight="0.011904761904761904" count="5">jah</word>
+	<phrase weight="0.03333333333333333" count="2">babylon rocker</phrase>
+	<phrase weight="0.016666666666666666" count="1">warrior fight zion fight babylon</phrase>
+	<phrase weight="0.016666666666666666" count="1">steppin razor</phrase>
+	<phrase weight="0.016666666666666666" count="1">mon wi</phrase>
+	<phrase weight="0.016666666666666666" count="1">tongues speaking</phrase>
+	<phrase weight="0.016666666666666666" count="1">mon zion voice cateye</phrase>
+	<phrase weight="0.016666666666666666" count="1">comin wi zion wi aerol babylon</phrase>
+	<phrase weight="0.016666666666666666" count="1">awkward zion</phrase>
+	<phrase weight="0.016666666666666666" count="1">smoky air founder</phrase>
+	<phrase weight="0.016666666666666666" count="1">harmless clown</phrase>
   </topic>
-  <topic id="2" alpha="0.125" totalTokens="884" titles="molly, sense, net, voice, past, left, building, ">
-	<word weight="0.11990950226244344" count="106">molly</word>
-	<word weight="0.05542986425339366" count="49">sense</word>
-	<word weight="0.03959276018099547" count="35">net</word>
-	<word weight="0.02828054298642534" count="25">voice</word>
-	<word weight="0.013574660633484163" count="12">past</word>
-	<word weight="0.013574660633484163" count="12">left</word>
-	<word weight="0.011312217194570135" count="10">building</word>
-	<phrase weight="0.2597402597402597" count="20">sense net</phrase>
-	<phrase weight="0.025974025974025976" count="2">sense net research library</phrase>
-	<phrase weight="0.025974025974025976" count="2">cat mother</phrase>
-	<phrase weight="0.012987012987012988" count="1">molly needed</phrase>
-	<phrase weight="0.012987012987012988" count="1">mid eschelon</phrase>
-	<phrase weight="0.012987012987012988" count="1">sense net security</phrase>
-	<phrase weight="0.012987012987012988" count="1">command pulsing</phrase>
+  <topic id="2" alpha="0.11464431999498895" totalTokens="427" titles="ratz, wage, bar, zone, artiste, beer, flask, boys, chat, ">
+	<word weight="0.1053864168618267" count="45">ratz</word>
+	<word weight="0.04449648711943794" count="19">wage</word>
+	<word weight="0.03747072599531616" count="16">bar</word>
+	<word weight="0.02810304449648712" count="12">zone</word>
+	<word weight="0.02576112412177986" count="11">artiste</word>
+	<word weight="0.01873536299765808" count="8">beer</word>
+	<word weight="0.01639344262295082" count="7">flask</word>
+	<word weight="0.01639344262295082" count="7">boys</word>
+	<word weight="0.01639344262295082" count="7">chat</word>
+	<phrase weight="0.027777777777777776" count="2">lonny zone</phrase>
+	<phrase weight="0.027777777777777776" count="2">whore giggle</phrase>
+	<phrase weight="0.013888888888888888" count="1">wage crotch</phrase>
+	<phrase weight="0.013888888888888888" count="1">proficiency jacked</phrase>
+	<phrase weight="0.013888888888888888" count="1">flask danish</phrase>
+	<phrase weight="0.013888888888888888" count="1">owe bartender shrugged owe glowered wage joe boys chatsubo wage</phrase>
+	<phrase weight="0.013888888888888888" count="1">artiste dedication</phrase>
+	<phrase weight="0.013888888888888888" count="1">beer pitcher hundred</phrase>
+	<phrase weight="0.013888888888888888" count="1">gaze bulge</phrase>
+	<phrase weight="0.013888888888888888" count="1">vanish zone</phrase>
   </topic>
-  <topic id="3" alpha="0.125" totalTokens="1056" titles="case, armitage, back, stood, jacket, crossed, watched, ">
-	<word weight="0.11647727272727272" count="123">case</word>
-	<word weight="0.06060606060606061" count="64">armitage</word>
-	<word weight="0.02556818181818182" count="27">back</word>
-	<word weight="0.01893939393939394" count="20">stood</word>
-	<word weight="0.017045454545454544" count="18">jacket</word>
-	<word weight="0.016098484848484848" count="17">crossed</word>
-	<word weight="0.016098484848484848" count="17">watched</word>
-	<phrase weight="0.02857142857142857" count="3">case watched</phrase>
-	<phrase weight="0.01904761904761905" count="2">case case</phrase>
-	<phrase weight="0.01904761904761905" count="2">gestured case</phrase>
-	<phrase weight="0.01904761904761905" count="2">pay phones</phrase>
-	<phrase weight="0.01904761904761905" count="2">hilton lobby</phrase>
-	<phrase weight="0.009523809523809525" count="1">couple days bad town</phrase>
-	<phrase weight="0.009523809523809525" count="1">armitage crossed</phrase>
+  <topic id="3" alpha="0.08717757111286313" totalTokens="263" titles="riviera, half, childhood, fletcher, thumb, morning, par, frozen, uneven, ">
+	<word weight="0.03802281368821293" count="10">riviera</word>
+	<word weight="0.030418250950570342" count="8">half</word>
+	<word weight="0.019011406844106463" count="5">childhood</word>
+	<word weight="0.019011406844106463" count="5">fletcher</word>
+	<word weight="0.019011406844106463" count="5">thumb</word>
+	<word weight="0.015209125475285171" count="4">morning</word>
+	<word weight="0.011406844106463879" count="3">par</word>
+	<word weight="0.011406844106463879" count="3">frozen</word>
+	<word weight="0.011406844106463879" count="3">uneven</word>
+	<phrase weight="0.058823529411764705" count="1">remnants disguising</phrase>
+	<phrase weight="0.058823529411764705" count="1">protected uneven</phrase>
+	<phrase weight="0.058823529411764705" count="1">idiotic cruelty</phrase>
+	<phrase weight="0.058823529411764705" count="1">riviera show</phrase>
+	<phrase weight="0.058823529411764705" count="1">bleached half</phrase>
+	<phrase weight="0.058823529411764705" count="1">clicking lexan</phrase>
+	<phrase weight="0.058823529411764705" count="1">half hours</phrase>
+	<phrase weight="0.058823529411764705" count="1">sky feeding</phrase>
+	<phrase weight="0.058823529411764705" count="1">riviera drag</phrase>
+	<phrase weight="0.058823529411764705" count="1">riviera shattered</phrase>
   </topic>
-  <topic id="4" alpha="0.125" totalTokens="1285" titles="case, man, years, real, time, tonight, knew, ">
-	<word weight="0.0980544747081712" count="126">case</word>
-	<word weight="0.042801556420233464" count="55">man</word>
-	<word weight="0.023346303501945526" count="30">years</word>
-	<word weight="0.01634241245136187" count="21">real</word>
-	<word weight="0.01634241245136187" count="21">time</word>
-	<word weight="0.01556420233463035" count="20">tonight</word>
-	<word weight="0.01556420233463035" count="20">knew</word>
-	<phrase weight="0.012048192771084338" count="1">yak night</phrase>
-	<phrase weight="0.012048192771084338" count="1">real time</phrase>
-	<phrase weight="0.012048192771084338" count="1">damn case managed</phrase>
-	<phrase weight="0.012048192771084338" count="1">buy kind</phrase>
-	<phrase weight="0.012048192771084338" count="1">luck tumble</phrase>
-	<phrase weight="0.012048192771084338" count="1">years ago</phrase>
-	<phrase weight="0.012048192771084338" count="1">guess watch ass</phrase>
+  <topic id="4" alpha="0.04037000510868947" totalTokens="272" titles="pierre, roland, michele, names, pistol, required, kolodny, lighter, erase, ">
+	<word weight="0.05514705882352941" count="15">pierre</word>
+	<word weight="0.05514705882352941" count="15">roland</word>
+	<word weight="0.04411764705882353" count="12">michele</word>
+	<word weight="0.014705882352941176" count="4">names</word>
+	<word weight="0.014705882352941176" count="4">pistol</word>
+	<word weight="0.014705882352941176" count="4">required</word>
+	<word weight="0.011029411764705883" count="3">kolodny</word>
+	<word weight="0.011029411764705883" count="3">lighter</word>
+	<word weight="0.011029411764705883" count="3">erase</word>
+	<phrase weight="0.021739130434782608" count="1">public mischief</phrase>
+	<phrase weight="0.021739130434782608" count="1">robot roland</phrase>
+	<phrase weight="0.021739130434782608" count="1">le bama</phrase>
+	<phrase weight="0.021739130434782608" count="1">erase kolodny</phrase>
+	<phrase weight="0.021739130434782608" count="1">michele prodded</phrase>
+	<phrase weight="0.021739130434782608" count="1">counterfeit marked telltale corrugation knuckles</phrase>
+	<phrase weight="0.021739130434782608" count="1">glasses michele knuckles traced</phrase>
+	<phrase weight="0.021739130434782608" count="1">peering flat</phrase>
+	<phrase weight="0.021739130434782608" count="1">pack pierre</phrase>
+	<phrase weight="0.021739130434782608" count="1">binoc ulars</phrase>
   </topic>
-  <topic id="5" alpha="0.125" totalTokens="812" titles="thing, looked, light, sand, girl, part, white, ">
-	<word weight="0.02832512315270936" count="23">thing</word>
-	<word weight="0.027093596059113302" count="22">looked</word>
-	<word weight="0.020935960591133004" count="17">light</word>
-	<word weight="0.01847290640394089" count="15">sand</word>
-	<word weight="0.01847290640394089" count="15">girl</word>
-	<word weight="0.01600985221674877" count="13">part</word>
-	<word weight="0.01600985221674877" count="13">white</word>
-	<phrase weight="0.09876543209876543" count="8">jules verne</phrase>
-	<phrase weight="0.04938271604938271" count="4">lado acheson</phrase>
-	<phrase weight="0.012345679012345678" count="1">burned wind</phrase>
-	<phrase weight="0.012345679012345678" count="1">munich fell</phrase>
-	<phrase weight="0.012345679012345678" count="1">band lado acheson</phrase>
-	<phrase weight="0.012345679012345678" count="1">erase kolodny</phrase>
-	<phrase weight="0.012345679012345678" count="1">numb boredom</phrase>
+  <topic id="5" alpha="0.11616531495027653" totalTokens="305" titles="pistol, cry, cold, drank, gun, drawn, console, intelligences, busy, ">
+	<word weight="0.022950819672131147" count="7">pistol</word>
+	<word weight="0.022950819672131147" count="7">cry</word>
+	<word weight="0.019672131147540985" count="6">cold</word>
+	<word weight="0.019672131147540985" count="6">drank</word>
+	<word weight="0.01639344262295082" count="5">gun</word>
+	<word weight="0.013114754098360656" count="4">drawn</word>
+	<word weight="0.013114754098360656" count="4">console</word>
+	<word weight="0.009836065573770493" count="3">intelligences</word>
+	<word weight="0.009836065573770493" count="3">busy</word>
+	<phrase weight="0.04878048780487805" count="2">cry cry</phrase>
+	<phrase weight="0.024390243902439025" count="1">rugs branched directions</phrase>
+	<phrase weight="0.024390243902439025" count="1">breathing slow</phrase>
+	<phrase weight="0.024390243902439025" count="1">tained embedded</phrase>
+	<phrase weight="0.024390243902439025" count="1">automatic pistol</phrase>
+	<phrase weight="0.024390243902439025" count="1">slow darling</phrase>
+	<phrase weight="0.024390243902439025" count="1">egyptian drank</phrase>
+	<phrase weight="0.024390243902439025" count="1">learned important lesson</phrase>
+	<phrase weight="0.024390243902439025" count="1">cry spit</phrase>
+	<phrase weight="0.024390243902439025" count="1">triangular landing</phrase>
   </topic>
-  <topic id="6" alpha="0.125" totalTokens="1124" titles="pocket, shit, good, gonna, fine, memory, small, ">
-	<word weight="0.023131672597864767" count="26">pocket</word>
-	<word weight="0.02224199288256228" count="25">shit</word>
-	<word weight="0.02224199288256228" count="25">good</word>
-	<word weight="0.019572953736654804" count="22">gonna</word>
-	<word weight="0.017793594306049824" count="20">fine</word>
-	<word weight="0.017793594306049824" count="20">memory</word>
-	<word weight="0.016903914590747332" count="19">small</word>
-	<phrase weight="0.031746031746031744" count="2">small monitor</phrase>
-	<phrase weight="0.015873015873015872" count="1">unnatural number trees</phrase>
-	<phrase weight="0.015873015873015872" count="1">sort fine</phrase>
-	<phrase weight="0.015873015873015872" count="1">forebrain sort</phrase>
-	<phrase weight="0.015873015873015872" count="1">jack nervous</phrase>
-	<phrase weight="0.015873015873015872" count="1">good good</phrase>
-	<phrase weight="0.015873015873015872" count="1">sand lot pale wood</phrase>
+  <topic id="6" alpha="0.1312326130325334" totalTokens="424" titles="riviera, hilton, aerol, shop, shuttle, istanbul, gravity, jal, lobby, ">
+	<word weight="0.049528301886792456" count="21">riviera</word>
+	<word weight="0.02122641509433962" count="9">hilton</word>
+	<word weight="0.018867924528301886" count="8">aerol</word>
+	<word weight="0.018867924528301886" count="8">shop</word>
+	<word weight="0.01650943396226415" count="7">shuttle</word>
+	<word weight="0.01650943396226415" count="7">istanbul</word>
+	<word weight="0.01650943396226415" count="7">gravity</word>
+	<word weight="0.014150943396226415" count="6">jal</word>
+	<word weight="0.014150943396226415" count="6">lobby</word>
+	<phrase weight="0.03076923076923077" count="2">jal shuttle</phrase>
+	<phrase weight="0.03076923076923077" count="2">gift shop</phrase>
+	<phrase weight="0.03076923076923077" count="2">freefall corridor</phrase>
+	<phrase weight="0.015384615384615385" count="1">heard lots</phrase>
+	<phrase weight="0.015384615384615385" count="1">reading flight</phrase>
+	<phrase weight="0.015384615384615385" count="1">jal shuttle nah</phrase>
+	<phrase weight="0.015384615384615385" count="1">reach expanse</phrase>
+	<phrase weight="0.015384615384615385" count="1">riviera posed</phrase>
+	<phrase weight="0.015384615384615385" count="1">patchwork tenements istanbul ir</phrase>
+	<phrase weight="0.015384615384615385" count="1">finger valet</phrase>
   </topic>
-  <topic id="7" alpha="0.125" totalTokens="1143" titles="molly, back, jane, face, head, hands, place, ">
-	<word weight="0.06124234470691164" count="70">molly</word>
-	<word weight="0.031496062992125984" count="36">back</word>
-	<word weight="0.02974628171478565" count="34">jane</word>
-	<word weight="0.028871391076115485" count="33">face</word>
-	<word weight="0.024496937882764653" count="28">head</word>
-	<word weight="0.021872265966754154" count="25">hands</word>
-	<word weight="0.019247594050743656" count="22">place</word>
-	<phrase weight="0.037383177570093455" count="4">win termute</phrase>
-	<phrase weight="0.028037383177570093" count="3">remem bered</phrase>
-	<phrase weight="0.018691588785046728" count="2">pain leg</phrase>
-	<phrase weight="0.018691588785046728" count="2">optic chip</phrase>
-	<phrase weight="0.009345794392523364" count="1">silence gave</phrase>
-	<phrase weight="0.009345794392523364" count="1">pain fucking</phrase>
-	<phrase weight="0.009345794392523364" count="1">molly jane</phrase>
+  <topic id="7" alpha="1.2772213836921626" totalTokens="3545" titles="back, dark, hand, black, light, face, eyes, case, white, ">
+	<word weight="0.02369534555712271" count="84">back</word>
+	<word weight="0.02369534555712271" count="84">dark</word>
+	<word weight="0.022849083215796897" count="81">hand</word>
+	<word weight="0.019464033850493653" count="69">black</word>
+	<word weight="0.01861777150916784" count="66">light</word>
+	<word weight="0.018053596614950634" count="64">face</word>
+	<word weight="0.017489421720733426" count="62">eyes</word>
+	<word weight="0.01607898448519041" count="57">case</word>
+	<word weight="0.014950634696755994" count="53">white</word>
+	<phrase weight="0.0069124423963133645" count="3">white light</phrase>
+	<phrase weight="0.0069124423963133645" count="3">sank back</phrase>
+	<phrase weight="0.004608294930875576" count="2">faint light</phrase>
+	<phrase weight="0.004608294930875576" count="2">small back</phrase>
+	<phrase weight="0.004608294930875576" count="2">shade gray</phrase>
+	<phrase weight="0.004608294930875576" count="2">left hand</phrase>
+	<phrase weight="0.002304147465437788" count="1">left touched</phrase>
+	<phrase weight="0.002304147465437788" count="1">smooth dark</phrase>
+	<phrase weight="0.002304147465437788" count="1">hand jive</phrase>
+	<phrase weight="0.002304147465437788" count="1">ancient wooden</phrase>
   </topic>
-  <topic id="8" alpha="0.125" totalTokens="773" titles="black, case, asked, waiting, looked, deck, lock, ">
-	<word weight="0.042690815006468305" count="33">black</word>
-	<word weight="0.031047865459249677" count="24">case</word>
-	<word weight="0.02457956015523933" count="19">asked</word>
-	<word weight="0.019404915912031046" count="15">waiting</word>
-	<word weight="0.016817593790426907" count="13">looked</word>
-	<word weight="0.014230271668822769" count="11">deck</word>
-	<word weight="0.0129366106080207" count="10">lock</word>
-	<phrase weight="0.03076923076923077" count="2">black chrome</phrase>
-	<phrase weight="0.015384615384615385" count="1">hypnagogic images faint kaleidoscop angles centered</phrase>
-	<phrase weight="0.015384615384615385" count="1">unit intensive care</phrase>
-	<phrase weight="0.015384615384615385" count="1">plane fusilage</phrase>
-	<phrase weight="0.015384615384615385" count="1">bottle water</phrase>
-	<phrase weight="0.015384615384615385" count="1">touch motes</phrase>
-	<phrase weight="0.015384615384615385" count="1">gray lockers</phrase>
+  <topic id="8" alpha="0.08316490788156093" totalTokens="174" titles="wasp, marlene, fuel, nest, ignition, mist, burn, dragon, open, ">
+	<word weight="0.028735632183908046" count="5">wasp</word>
+	<word weight="0.028735632183908046" count="5">marlene</word>
+	<word weight="0.022988505747126436" count="4">fuel</word>
+	<word weight="0.022988505747126436" count="4">nest</word>
+	<word weight="0.017241379310344827" count="3">ignition</word>
+	<word weight="0.017241379310344827" count="3">mist</word>
+	<word weight="0.017241379310344827" count="3">burn</word>
+	<word weight="0.017241379310344827" count="3">dragon</word>
+	<word weight="0.017241379310344827" count="3">open</word>
+	<phrase weight="0.0625" count="1">immobile wasp</phrase>
+	<phrase weight="0.0625" count="1">advantage existing</phrase>
+	<phrase weight="0.0625" count="1">stupid burn</phrase>
+	<phrase weight="0.0625" count="1">ignition exploded thump</phrase>
+	<phrase weight="0.0625" count="1">singed wasps wrenched</phrase>
+	<phrase weight="0.0625" count="1">fuel open</phrase>
+	<phrase weight="0.0625" count="1">nest charring</phrase>
+	<phrase weight="0.0625" count="1">wasp stung marlene</phrase>
+	<phrase weight="0.0625" count="1">ignition switch</phrase>
+	<phrase weight="0.0625" count="1">spray triangles</phrase>
   </topic>
-  <topic id="9" alpha="0.125" totalTokens="763" titles="white, bed, began, chip, head, pointed, weird, ">
-	<word weight="0.0327653997378768" count="25">white</word>
-	<word weight="0.028833551769331587" count="22">bed</word>
-	<word weight="0.027522935779816515" count="21">began</word>
-	<word weight="0.01703800786369594" count="13">chip</word>
-	<word weight="0.01703800786369594" count="13">head</word>
-	<word weight="0.015727391874180863" count="12">pointed</word>
-	<word weight="0.014416775884665793" count="11">weird</word>
-	<phrase weight="0.03125" count="2">soot stained</phrase>
-	<phrase weight="0.03125" count="2">weird weird</phrase>
-	<phrase weight="0.03125" count="2">iron railing</phrase>
-	<phrase weight="0.015625" count="1">languages passed</phrase>
-	<phrase weight="0.015625" count="1">travel biz</phrase>
-	<phrase weight="0.015625" count="1">terminal housing</phrase>
-	<phrase weight="0.015625" count="1">loved handle</phrase>
+  <topic id="9" alpha="0.06806550913255892" totalTokens="122" titles="media, terrorism, nod, difficult, terrorist, violence, dr, carbon, understand, ">
+	<word weight="0.03278688524590164" count="4">media</word>
+	<word weight="0.02459016393442623" count="3">terrorism</word>
+	<word weight="0.02459016393442623" count="3">nod</word>
+	<word weight="0.02459016393442623" count="3">difficult</word>
+	<word weight="0.01639344262295082" count="2">terrorist</word>
+	<word weight="0.01639344262295082" count="2">violence</word>
+	<word weight="0.01639344262295082" count="2">dr</word>
+	<word weight="0.01639344262295082" count="2">carbon</word>
+	<word weight="0.01639344262295082" count="2">understand</word>
+	<phrase weight="0.16666666666666666" count="1">terrorism dr rambali</phrase>
+	<phrase weight="0.16666666666666666" count="1">media divorce act terrorism</phrase>
+	<phrase weight="0.16666666666666666" count="1">media related panther moderns differ terrorists precisely degree consciousness awareness</phrase>
+	<phrase weight="0.16666666666666666" count="1">point terrorist ceases manipulate media gestalt point violence escalate terrorist symptomatic media gestalt terrorism ordinarily understand</phrase>
+	<phrase weight="0.16666666666666666" count="1">understand continue insist phenomenon</phrase>
+	<phrase weight="0.16666666666666666" count="1">acts surreal violence difficult</phrase>
   </topic>
-  <topic id="10" alpha="0.125" totalTokens="847" titles="molly, case, asked, armitage, days, nose, razor, ">
-	<word weight="0.07910271546635184" count="67">molly</word>
-	<word weight="0.06729634002361275" count="57">case</word>
-	<word weight="0.02715466351829988" count="23">asked</word>
-	<word weight="0.021251475796930343" count="18">armitage</word>
-	<word weight="0.015348288075560802" count="13">days</word>
-	<word weight="0.012987012987012988" count="11">nose</word>
-	<word weight="0.012987012987012988" count="11">razor</word>
-	<phrase weight="0.02857142857142857" count="2">work armitage</phrase>
-	<phrase weight="0.014285714285714285" count="1">talk love</phrase>
-	<phrase weight="0.014285714285714285" count="1">armitage case</phrase>
-	<phrase weight="0.014285714285714285" count="1">molly explained</phrase>
-	<phrase weight="0.014285714285714285" count="1">disgorged sullen</phrase>
-	<phrase weight="0.014285714285714285" count="1">molly asked steppin razor bring</phrase>
-	<phrase weight="0.014285714285714285" count="1">hawk nose</phrase>
+  <topic id="10" alpha="0.08497123856320905" totalTokens="320" titles="acheson, trees, meadow, lado, tan, umbrellas, anger, microlight, owns, ">
+	<word weight="0.021875" count="7">acheson</word>
+	<word weight="0.021875" count="7">trees</word>
+	<word weight="0.01875" count="6">meadow</word>
+	<word weight="0.01875" count="6">lado</word>
+	<word weight="0.01875" count="6">tan</word>
+	<word weight="0.015625" count="5">umbrellas</word>
+	<word weight="0.015625" count="5">anger</word>
+	<word weight="0.0125" count="4">microlight</word>
+	<word weight="0.0125" count="4">owns</word>
+	<phrase weight="0.058823529411764705" count="2">system stimulants</phrase>
+	<phrase weight="0.058823529411764705" count="2">band lado acheson</phrase>
+	<phrase weight="0.029411764705882353" count="1">secret heirs</phrase>
+	<phrase weight="0.029411764705882353" count="1">striped umbrellas anger</phrase>
+	<phrase weight="0.029411764705882353" count="1">coal anger</phrase>
+	<phrase weight="0.029411764705882353" count="1">quarter microlight</phrase>
+	<phrase weight="0.029411764705882353" count="1">trees umbrellas</phrase>
+	<phrase weight="0.029411764705882353" count="1">turquoise tiles</phrase>
+	<phrase weight="0.029411764705882353" count="1">sea parisian</phrase>
+	<phrase weight="0.029411764705882353" count="1">striped umbrellas</phrase>
   </topic>
-  <topic id="11" alpha="0.125" totalTokens="656" titles="moderns, moved, chiba, screen, dozen, color, heard, ">
-	<word weight="0.027439024390243903" count="18">moderns</word>
-	<word weight="0.022865853658536585" count="15">moved</word>
-	<word weight="0.018292682926829267" count="12">chiba</word>
-	<word weight="0.01676829268292683" count="11">screen</word>
-	<word weight="0.01676829268292683" count="11">dozen</word>
-	<word weight="0.01676829268292683" count="11">color</word>
-	<word weight="0.01524390243902439" count="10">heard</word>
-	<phrase weight="0.0547945205479452" count="4">panther moderns</phrase>
-	<phrase weight="0.0273972602739726" count="2">fiber canister</phrase>
-	<phrase weight="0.0136986301369863" count="1">softs moderns</phrase>
-	<phrase weight="0.0136986301369863" count="1">sensations professional</phrase>
-	<phrase weight="0.0136986301369863" count="1">factory domes</phrase>
-	<phrase weight="0.0136986301369863" count="1">produce acute</phrase>
-	<phrase weight="0.0136986301369863" count="1">ego yond</phrase>
+  <topic id="11" alpha="0.10181115175733037" totalTokens="510" titles="jane, hideo, riviera, maelcum, pool, arrow, ninja, bow, dance, ">
+	<word weight="0.06470588235294118" count="33">jane</word>
+	<word weight="0.052941176470588235" count="27">hideo</word>
+	<word weight="0.050980392156862744" count="26">riviera</word>
+	<word weight="0.03529411764705882" count="18">maelcum</word>
+	<word weight="0.029411764705882353" count="15">pool</word>
+	<word weight="0.025490196078431372" count="13">arrow</word>
+	<word weight="0.023529411764705882" count="12">ninja</word>
+	<word weight="0.013725490196078431" count="7">bow</word>
+	<word weight="0.013725490196078431" count="7">dance</word>
+	<phrase weight="0.0125" count="1">summer beach camping</phrase>
+	<phrase weight="0.0125" count="1">malcolm wound</phrase>
+	<phrase weight="0.0125" count="1">snap hideo</phrase>
+	<phrase weight="0.0125" count="1">nonchalance regency duelist performance</phrase>
+	<phrase weight="0.0125" count="1">start jane</phrase>
+	<phrase weight="0.0125" count="1">length terminating</phrase>
+	<phrase weight="0.0125" count="1">blockhouse mulated</phrase>
+	<phrase weight="0.0125" count="1">lover hideo</phrase>
+	<phrase weight="0.0125" count="1">peter jane</phrase>
+	<phrase weight="0.0125" count="1">hideo jane</phrase>
   </topic>
-  <topic id="12" alpha="0.125" totalTokens="1047" titles="turned, back, smiled, give, cigarettes, window, sat, ">
-	<word weight="0.029608404966571154" count="31">turned</word>
-	<word weight="0.02005730659025788" count="21">back</word>
-	<word weight="0.017191977077363897" count="18">smiled</word>
-	<word weight="0.014326647564469915" count="15">give</word>
-	<word weight="0.013371537726838587" count="14">cigarettes</word>
-	<word weight="0.012416427889207259" count="13">window</word>
-	<word weight="0.011461318051575931" count="12">sat</word>
-	<phrase weight="0.029411764705882353" count="3">jal shuttle</phrase>
-	<phrase weight="0.0196078431372549" count="2">turned smiled</phrase>
-	<phrase weight="0.0196078431372549" count="2">leather jeans</phrase>
-	<phrase weight="0.00980392156862745" count="1">trigger end</phrase>
-	<phrase weight="0.00980392156862745" count="1">meters tip tip</phrase>
-	<phrase weight="0.00980392156862745" count="1">saltwater give sores</phrase>
-	<phrase weight="0.00980392156862745" count="1">worse worse</phrase>
+  <topic id="12" alpha="0.2596623761139725" totalTokens="774" titles="molly, jane, peter, ashpool, mother, pain, code, leg, unit, ">
+	<word weight="0.07622739018087855" count="59">molly</word>
+	<word weight="0.06201550387596899" count="48">jane</word>
+	<word weight="0.031007751937984496" count="24">peter</word>
+	<word weight="0.02454780361757106" count="19">ashpool</word>
+	<word weight="0.01937984496124031" count="15">mother</word>
+	<word weight="0.01808785529715762" count="14">pain</word>
+	<word weight="0.01808785529715762" count="14">code</word>
+	<word weight="0.015503875968992248" count="12">leg</word>
+	<word weight="0.011627906976744186" count="9">unit</word>
+	<phrase weight="0.01282051282051282" count="1">arrival fun nurse</phrase>
+	<phrase weight="0.01282051282051282" count="1">forebrain sort</phrase>
+	<phrase weight="0.01282051282051282" count="1">peter jane</phrase>
+	<phrase weight="0.01282051282051282" count="1">inverted pool</phrase>
+	<phrase weight="0.01282051282051282" count="1">extremely secretive</phrase>
+	<phrase weight="0.01282051282051282" count="1">jane throat funny ashpool</phrase>
+	<phrase weight="0.01282051282051282" count="1">individual consciousness jane</phrase>
+	<phrase weight="0.01282051282051282" count="1">correctly ghosts</phrase>
+	<phrase weight="0.01282051282051282" count="1">deeply carved cylinder rock</phrase>
+	<phrase weight="0.01282051282051282" count="1">father jane change</phrase>
   </topic>
-  <topic id="13" alpha="0.125" totalTokens="872" titles="black, blue, hand, linda, found, window, neon, ">
-	<word weight="0.03669724770642202" count="32">black</word>
-	<word weight="0.027522935779816515" count="24">blue</word>
-	<word weight="0.020642201834862386" count="18">hand</word>
-	<word weight="0.0194954128440367" count="17">linda</word>
-	<word weight="0.01834862385321101" count="16">found</word>
-	<word weight="0.017201834862385322" count="15">window</word>
-	<word weight="0.016055045871559634" count="14">neon</word>
-	<phrase weight="0.039473684210526314" count="3">linda lee</phrase>
-	<phrase weight="0.013157894736842105" count="1">zone whores tattooed</phrase>
-	<phrase weight="0.013157894736842105" count="1">milanese plastics</phrase>
-	<phrase weight="0.013157894736842105" count="1">glide spheres</phrase>
-	<phrase weight="0.013157894736842105" count="1">glossy plastics</phrase>
-	<phrase weight="0.013157894736842105" count="1">girdle blue</phrase>
-	<phrase weight="0.013157894736842105" count="1">slick paper</phrase>
+  <topic id="13" alpha="0.12576223788768506" totalTokens="561" titles="sand, beach, city, surf, knees, bunker, wind, night, walked, ">
+	<word weight="0.040998217468805706" count="23">sand</word>
+	<word weight="0.035650623885918005" count="20">beach</word>
+	<word weight="0.0285204991087344" count="16">city</word>
+	<word weight="0.0196078431372549" count="11">surf</word>
+	<word weight="0.016042780748663103" count="9">knees</word>
+	<word weight="0.0142602495543672" count="8">bunker</word>
+	<word weight="0.0142602495543672" count="8">wind</word>
+	<word weight="0.0142602495543672" count="8">night</word>
+	<word weight="0.012477718360071301" count="7">walked</word>
+	<phrase weight="0.016666666666666666" count="1">stopped city city</phrase>
+	<phrase weight="0.016666666666666666" count="1">sand fled</phrase>
+	<phrase weight="0.016666666666666666" count="1">pulling ankles</phrase>
+	<phrase weight="0.016666666666666666" count="1">sweat dirt knife</phrase>
+	<phrase weight="0.016666666666666666" count="1">vaguely beef</phrase>
+	<phrase weight="0.016666666666666666" count="1">scarf knotted</phrase>
+	<phrase weight="0.016666666666666666" count="1">stick embers</phrase>
+	<phrase weight="0.016666666666666666" count="1">beach combed patterns</phrase>
+	<phrase weight="0.016666666666666666" count="1">grotesque props</phrase>
+	<phrase weight="0.016666666666666666" count="1">sand damp bottoms jeans</phrase>
   </topic>
-  <topic id="14" alpha="0.125" totalTokens="853" titles="ratz, wage, city, night, beach, bar, gray, ">
-	<word weight="0.05275498241500586" count="45">ratz</word>
-	<word weight="0.04220398593200469" count="36">wage</word>
-	<word weight="0.031652989449003514" count="27">city</word>
-	<word weight="0.03048065650644783" count="26">night</word>
-	<word weight="0.02579132473622509" count="22">beach</word>
-	<word weight="0.021101992966002344" count="18">bar</word>
-	<word weight="0.017584994138335287" count="15">gray</word>
-	<phrase weight="0.05357142857142857" count="6">night city</phrase>
-	<phrase weight="0.017857142857142856" count="2">ratz ratz</phrase>
-	<phrase weight="0.017857142857142856" count="2">ratz bartender</phrase>
-	<phrase weight="0.017857142857142856" count="2">joe boys</phrase>
-	<phrase weight="0.017857142857142856" count="2">friend artiste</phrase>
-	<phrase weight="0.017857142857142856" count="2">sound surf</phrase>
-	<phrase weight="0.008928571428571428" count="1">drinking apollonaris</phrase>
+  <topic id="14" alpha="0.13006941947135514" totalTokens="500" titles="net, sense, moderns, link, lobby, building, atlanta, brood, cat, ">
+	<word weight="0.05" count="25">net</word>
+	<word weight="0.044" count="22">sense</word>
+	<word weight="0.026" count="13">moderns</word>
+	<word weight="0.018" count="9">link</word>
+	<word weight="0.016" count="8">lobby</word>
+	<word weight="0.016" count="8">building</word>
+	<word weight="0.016" count="8">atlanta</word>
+	<word weight="0.012" count="6">brood</word>
+	<word weight="0.012" count="6">cat</word>
+	<phrase weight="0.0875" count="7">sense net</phrase>
+	<phrase weight="0.0125" count="1">polycarbon chicago falling marble</phrase>
+	<phrase weight="0.0125" count="1">crumpled bodies sense net</phrase>
+	<phrase weight="0.0125" count="1">umbrella dish</phrase>
+	<phrase weight="0.0125" count="1">icebreaker strobed shifted</phrase>
+	<phrase weight="0.0125" count="1">net consortium</phrase>
+	<phrase weight="0.0125" count="1">barricades tacticals</phrase>
+	<phrase weight="0.0125" count="1">orbit manhattan chose</phrase>
+	<phrase weight="0.0125" count="1">strata sense net</phrase>
+	<phrase weight="0.0125" count="1">taping riot video camera</phrase>
   </topic>
-  <topic id="15" alpha="0.125" totalTokens="796" titles="deane, white, gun, julie, pink, door, front, ">
-	<word weight="0.059045226130653265" count="47">deane</word>
-	<word weight="0.03015075376884422" count="24">white</word>
-	<word weight="0.020100502512562814" count="16">gun</word>
-	<word weight="0.020100502512562814" count="16">julie</word>
-	<word weight="0.020100502512562814" count="16">pink</word>
-	<word weight="0.018844221105527637" count="15">door</word>
-	<word weight="0.016331658291457288" count="13">front</word>
-	<phrase weight="0.030927835051546393" count="3">son deane</phrase>
-	<phrase weight="0.020618556701030927" count="2">swivel chair</phrase>
-	<phrase weight="0.020618556701030927" count="2">white fiberglass shipping modules</phrase>
-	<phrase weight="0.020618556701030927" count="2">julie deane</phrase>
-	<phrase weight="0.010309278350515464" count="1">deane makeshift</phrase>
-	<phrase weight="0.010309278350515464" count="1">belly gun magnum revolver barrel sawn</phrase>
-	<phrase weight="0.010309278350515464" count="1">face deane</phrase>
+  <topic id="15" alpha="0.33496014529316154" totalTokens="745" titles="looked, chip, hour, circle, gray, arms, drone, sight, tube, ">
+	<word weight="0.0174496644295302" count="13">looked</word>
+	<word weight="0.016107382550335572" count="12">chip</word>
+	<word weight="0.01476510067114094" count="11">hour</word>
+	<word weight="0.013422818791946308" count="10">circle</word>
+	<word weight="0.013422818791946308" count="10">gray</word>
+	<word weight="0.013422818791946308" count="10">arms</word>
+	<word weight="0.012080536912751677" count="9">drone</word>
+	<word weight="0.012080536912751677" count="9">sight</word>
+	<word weight="0.012080536912751677" count="9">tube</word>
+	<phrase weight="0.015151515151515152" count="1">steel tube leather thong</phrase>
+	<phrase weight="0.015151515151515152" count="1">diffuse laserlight</phrase>
+	<phrase weight="0.015151515151515152" count="1">spoken sight</phrase>
+	<phrase weight="0.015151515151515152" count="1">gray ship</phrase>
+	<phrase weight="0.015151515151515152" count="1">shoulders climbing</phrase>
+	<phrase weight="0.015151515151515152" count="1">pulling licking</phrase>
+	<phrase weight="0.015151515151515152" count="1">cash thumb</phrase>
+	<phrase weight="0.015151515151515152" count="1">max reverse</phrase>
+	<phrase weight="0.015151515151515152" count="1">gray slender</phrase>
+	<phrase weight="0.015151515151515152" count="1">watched ring</phrase>
   </topic>
-  <topic id="16" alpha="0.125" totalTokens="778" titles="case, deck, straylight, construct, shoulder, sendai, cart, ">
-	<word weight="0.10025706940874037" count="78">case</word>
-	<word weight="0.030848329048843187" count="24">deck</word>
-	<word weight="0.028277634961439587" count="22">straylight</word>
-	<word weight="0.02313624678663239" count="18">construct</word>
-	<word weight="0.021850899742930592" count="17">shoulder</word>
-	<word weight="0.02056555269922879" count="16">sendai</word>
-	<word weight="0.019280205655526992" count="15">cart</word>
-	<phrase weight="0.13924050632911392" count="11">ono sendai</phrase>
-	<phrase weight="0.06329113924050633" count="5">metro holografix</phrase>
-	<phrase weight="0.05063291139240506" count="4">deck construct</phrase>
-	<phrase weight="0.02531645569620253" count="2">custodial commands</phrase>
-	<phrase weight="0.012658227848101266" count="1">crocheted cotton</phrase>
-	<phrase weight="0.012658227848101266" count="1">purchased bulk</phrase>
-	<phrase weight="0.012658227848101266" count="1">straylight parasitic</phrase>
+  <topic id="16" alpha="0.17821503900451863" totalTokens="349" titles="open, bridge, printout, helmet, enzyme, tears, slot, seals, midbay, ">
+	<word weight="0.034383954154727794" count="12">open</word>
+	<word weight="0.022922636103151862" count="8">bridge</word>
+	<word weight="0.02005730659025788" count="7">printout</word>
+	<word weight="0.017191977077363897" count="6">helmet</word>
+	<word weight="0.017191977077363897" count="6">enzyme</word>
+	<word weight="0.017191977077363897" count="6">tears</word>
+	<word weight="0.017191977077363897" count="6">slot</word>
+	<word weight="0.014326647564469915" count="5">seals</word>
+	<word weight="0.014326647564469915" count="5">midbay</word>
+	<phrase weight="0.022222222222222223" count="1">crystal droplets</phrase>
+	<phrase weight="0.022222222222222223" count="1">feedback shrilled helmet</phrase>
+	<phrase weight="0.022222222222222223" count="1">launchin wi lock open</phrase>
+	<phrase weight="0.022222222222222223" count="1">handrubbed veneer</phrase>
+	<phrase weight="0.022222222222222223" count="1">lifeboat countin</phrase>
+	<phrase weight="0.022222222222222223" count="1">chairs resembled</phrase>
+	<phrase weight="0.022222222222222223" count="1">lounge shredding</phrase>
+	<phrase weight="0.022222222222222223" count="1">ringed helmet</phrase>
+	<phrase weight="0.022222222222222223" count="1">dornier fujitsu</phrase>
+	<phrase weight="0.022222222222222223" count="1">fist im</phrase>
   </topic>
-  <topic id="17" alpha="0.125" totalTokens="1259" titles="wintermute, ashpool, tessier, back, told, time, thing, ">
-	<word weight="0.05321683876092136" count="67">wintermute</word>
-	<word weight="0.03812549642573471" count="48">ashpool</word>
-	<word weight="0.03256552819698173" count="41">tessier</word>
-	<word weight="0.030182684670373314" count="38">back</word>
-	<word weight="0.023828435266084195" count="30">told</word>
-	<word weight="0.023034154090548053" count="29">time</word>
-	<word weight="0.022239872915011914" count="28">thing</word>
-	<phrase weight="0.145985401459854" count="20">tessier ashpool</phrase>
-	<phrase weight="0.021897810218978103" count="3">eastern seaboard fission authority</phrase>
-	<phrase weight="0.014598540145985401" count="2">wintermute yeah</phrase>
-	<phrase weight="0.014598540145985401" count="2">wintermute death</phrase>
-	<phrase weight="0.014598540145985401" count="2">won won</phrase>
-	<phrase weight="0.014598540145985401" count="2">killed puppet</phrase>
-	<phrase weight="0.014598540145985401" count="2">wintermute killed</phrase>
+  <topic id="17" alpha="0.08302682931704024" totalTokens="368" titles="pauley, aide, scientists, data, mccoy, trials, bell, loser, rom, ">
+	<word weight="0.02717391304347826" count="10">pauley</word>
+	<word weight="0.016304347826086956" count="6">aide</word>
+	<word weight="0.016304347826086956" count="6">scientists</word>
+	<word weight="0.016304347826086956" count="6">data</word>
+	<word weight="0.016304347826086956" count="6">mccoy</word>
+	<word weight="0.01358695652173913" count="5">trials</word>
+	<word weight="0.010869565217391304" count="4">bell</word>
+	<word weight="0.010869565217391304" count="4">loser</word>
+	<word weight="0.010869565217391304" count="4">rom</word>
+	<phrase weight="0.0425531914893617" count="2">bell europa</phrase>
+	<phrase weight="0.0425531914893617" count="2">mccoy pauley</phrase>
+	<phrase weight="0.02127659574468085" count="1">zaibatsu government</phrase>
+	<phrase weight="0.02127659574468085" count="1">plummeted blind</phrase>
+	<phrase weight="0.02127659574468085" count="1">pauley rom</phrase>
+	<phrase weight="0.02127659574468085" count="1">aide arranged</phrase>
+	<phrase weight="0.02127659574468085" count="1">grid determined</phrase>
+	<phrase weight="0.02127659574468085" count="1">beneath contorted</phrase>
+	<phrase weight="0.02127659574468085" count="1">police reports</phrase>
+	<phrase weight="0.02127659574468085" count="1">christian scientists beneath lowered</phrase>
   </topic>
-  <topic id="18" alpha="0.125" totalTokens="858" titles="glass, beneath, floor, elevator, cath, bruce, watched, ">
-	<word weight="0.030303030303030304" count="26">glass</word>
-	<word weight="0.023310023310023312" count="20">beneath</word>
-	<word weight="0.022144522144522144" count="19">floor</word>
-	<word weight="0.018648018648018648" count="16">elevator</word>
-	<word weight="0.017482517482517484" count="15">cath</word>
-	<word weight="0.016317016317016316" count="14">bruce</word>
-	<word weight="0.016317016317016316" count="14">watched</word>
-	<phrase weight="0.015625" count="1">quick sip</phrase>
-	<phrase weight="0.015625" count="1">home bruce</phrase>
-	<phrase weight="0.015625" count="1">engine silent</phrase>
-	<phrase weight="0.015625" count="1">matching bruce</phrase>
-	<phrase weight="0.015625" count="1">lupus bruce</phrase>
-	<phrase weight="0.015625" count="1">local crowded</phrase>
-	<phrase weight="0.015625" count="1">local action</phrase>
+  <topic id="18" alpha="0.15594239215353928" totalTokens="428" titles="deck, cyberspace, train, woke, sendai, ono, loft, sunlight, fire, ">
+	<word weight="0.028037383177570093" count="12">deck</word>
+	<word weight="0.02570093457943925" count="11">cyberspace</word>
+	<word weight="0.018691588785046728" count="8">train</word>
+	<word weight="0.014018691588785047" count="6">woke</word>
+	<word weight="0.014018691588785047" count="6">sendai</word>
+	<word weight="0.014018691588785047" count="6">ono</word>
+	<word weight="0.014018691588785047" count="6">loft</word>
+	<word weight="0.014018691588785047" count="6">sunlight</word>
+	<word weight="0.014018691588785047" count="6">fire</word>
+	<phrase weight="0.03125" count="1">pyridene hotshot</phrase>
+	<phrase weight="0.03125" count="1">bleeped warning switch patched sendai</phrase>
+	<phrase weight="0.03125" count="1">subsonics vibration</phrase>
+	<phrase weight="0.03125" count="1">carried ono sendai</phrase>
+	<phrase weight="0.03125" count="1">absorbing information</phrase>
+	<phrase weight="0.03125" count="1">sudden eddies</phrase>
+	<phrase weight="0.03125" count="1">blurred dream</phrase>
+	<phrase weight="0.03125" count="1">simstim deck</phrase>
+	<phrase weight="0.03125" count="1">ono sendai</phrase>
+	<phrase weight="0.03125" count="1">letter writers</phrase>
   </topic>
-  <topic id="19" alpha="0.125" totalTokens="604" titles="smith, shuriken, pierre, roland, michele, jimmy, pistol, ">
-	<word weight="0.04966887417218543" count="30">smith</word>
-	<word weight="0.028145695364238412" count="17">shuriken</word>
-	<word weight="0.024834437086092714" count="15">pierre</word>
-	<word weight="0.024834437086092714" count="15">roland</word>
-	<word weight="0.019867549668874173" count="12">michele</word>
-	<word weight="0.018211920529801324" count="11">jimmy</word>
-	<word weight="0.018211920529801324" count="11">pistol</word>
-	<phrase weight="0.02666666666666667" count="2">ninja smith</phrase>
-	<phrase weight="0.02666666666666667" count="2">mod erns</phrase>
-	<phrase weight="0.013333333333333334" count="1">flexibility create flexibility situations required</phrase>
-	<phrase weight="0.013333333333333334" count="1">roland shrugged</phrase>
-	<phrase weight="0.013333333333333334" count="1">traced hired</phrase>
-	<phrase weight="0.013333333333333334" count="1">business contact fences dealt</phrase>
-	<phrase weight="0.013333333333333334" count="1">request businessman</phrase>
+  <topic id="19" alpha="0.09683912899640955" totalTokens="446" titles="ai, al, swiss, turing, tessier, produced, military, cube, berne, ">
+	<word weight="0.02914798206278027" count="13">ai</word>
+	<word weight="0.02466367713004484" count="11">al</word>
+	<word weight="0.020179372197309416" count="9">swiss</word>
+	<word weight="0.01569506726457399" count="7">turing</word>
+	<word weight="0.01569506726457399" count="7">tessier</word>
+	<word weight="0.01569506726457399" count="7">produced</word>
+	<word weight="0.01569506726457399" count="7">military</word>
+	<word weight="0.013452914798206279" count="6">cube</word>
+	<word weight="0.013452914798206279" count="6">berne</word>
+	<phrase weight="0.07272727272727272" count="4">eastern seaboard fission authority</phrase>
+	<phrase weight="0.03636363636363636" count="2">rec tilinear</phrase>
+	<phrase weight="0.01818181818181818" count="1">al belongs tessier</phrase>
+	<phrase weight="0.01818181818181818" count="1">lip gazed plateaus eastern seaboard fission authority</phrase>
+	<phrase weight="0.01818181818181818" count="1">ono sendai reinhold</phrase>
+	<phrase weight="0.01818181818181818" count="1">interorbital transmission</phrase>
+	<phrase weight="0.01818181818181818" count="1">deserved decals</phrase>
+	<phrase weight="0.01818181818181818" count="1">capabilities regard existing military</phrase>
+	<phrase weight="0.01818181818181818" count="1">turing heat</phrase>
+	<phrase weight="0.01818181818181818" count="1">nausea stimulants manufacturer</phrase>
   </topic>
-  <topic id="20" alpha="0.125" totalTokens="554" titles="suit, modern, case, bazaar, mercedes, phone, broad, ">
-	<word weight="0.05956678700361011" count="33">suit</word>
-	<word weight="0.02527075812274368" count="14">modern</word>
-	<word weight="0.021660649819494584" count="12">case</word>
-	<word weight="0.016245487364620937" count="9">bazaar</word>
-	<word weight="0.016245487364620937" count="9">mercedes</word>
-	<word weight="0.016245487364620937" count="9">phone</word>
-	<word weight="0.016245487364620937" count="9">broad</word>
-	<phrase weight="0.08928571428571429" count="5">modern suit</phrase>
-	<phrase weight="0.03571428571428571" count="2">phone bleated</phrase>
-	<phrase weight="0.017857142857142856" count="1">loft transdermal inducer</phrase>
-	<phrase weight="0.017857142857142856" count="1">means told</phrase>
-	<phrase weight="0.017857142857142856" count="1">suit hey jersey case armenian</phrase>
-	<phrase weight="0.017857142857142856" count="1">hatice city</phrase>
-	<phrase weight="0.017857142857142856" count="1">lazily front</phrase>
+  <topic id="20" alpha="0.0768011161285006" totalTokens="355" titles="bruce, cath, verne, jules, numb, lupus, derm, hologram, rue, ">
+	<word weight="0.03943661971830986" count="14">bruce</word>
+	<word weight="0.036619718309859155" count="13">cath</word>
+	<word weight="0.03380281690140845" count="12">verne</word>
+	<word weight="0.03380281690140845" count="12">jules</word>
+	<word weight="0.01971830985915493" count="7">numb</word>
+	<word weight="0.01971830985915493" count="7">lupus</word>
+	<word weight="0.01971830985915493" count="7">derm</word>
+	<word weight="0.016901408450704224" count="6">hologram</word>
+	<word weight="0.014084507042253521" count="5">rue</word>
+	<phrase weight="0.10204081632653061" count="5">jules verne</phrase>
+	<phrase weight="0.08163265306122448" count="4">rue jules verne</phrase>
+	<phrase weight="0.04081632653061224" count="2">polymer wings</phrase>
+	<phrase weight="0.02040816326530612" count="1">lupus bruce</phrase>
+	<phrase weight="0.02040816326530612" count="1">magazines presenting</phrase>
+	<phrase weight="0.02040816326530612" count="1">lupus cath</phrase>
+	<phrase weight="0.02040816326530612" count="1">hill paradise cream iest</phrase>
+	<phrase weight="0.02040816326530612" count="1">artificial mesa</phrase>
+	<phrase weight="0.02040816326530612" count="1">cheerfully shower</phrase>
+	<phrase weight="0.02040816326530612" count="1">pre vented</phrase>
   </topic>
-  <topic id="21" alpha="0.125" totalTokens="741" titles="jane, hideo, peter, riviera, pool, eyes, girl, ">
-	<word weight="0.07692307692307693" count="57">jane</word>
-	<word weight="0.04183535762483131" count="31">hideo</word>
-	<word weight="0.032388663967611336" count="24">peter</word>
-	<word weight="0.0310391363022942" count="23">riviera</word>
-	<word weight="0.022941970310391364" count="17">pool</word>
-	<word weight="0.022941970310391364" count="17">eyes</word>
-	<word weight="0.018893387314439947" count="14">girl</word>
-	<phrase weight="0.027777777777777776" count="3">peter jane</phrase>
-	<phrase weight="0.018518518518518517" count="2">hideo jane</phrase>
-	<phrase weight="0.018518518518518517" count="2">jane nodded</phrase>
-	<phrase weight="0.009259259259259259" count="1">peter jane peter</phrase>
-	<phrase weight="0.009259259259259259" count="1">cutters workpants</phrase>
-	<phrase weight="0.009259259259259259" count="1">motion tumble</phrase>
-	<phrase weight="0.009259259259259259" count="1">riviera eyes</phrase>
+  <topic id="21" alpha="1.0069857364453842" totalTokens="2218" titles="eyes, boy, black, linda, case, found, past, hair, arm, ">
+	<word weight="0.032912533814247066" count="73">eyes</word>
+	<word weight="0.02569882777276826" count="57">boy</word>
+	<word weight="0.018935978358881875" count="42">black</word>
+	<word weight="0.017132551848512173" count="38">linda</word>
+	<word weight="0.014427412082957619" count="32">case</word>
+	<word weight="0.013525698827772768" count="30">found</word>
+	<word weight="0.012173128944995492" count="27">past</word>
+	<word weight="0.011722272317403066" count="26">hair</word>
+	<word weight="0.01127141568981064" count="25">arm</word>
+	<phrase weight="0.021929824561403508" count="5">gray eyes</phrase>
+	<phrase weight="0.013157894736842105" count="3">blue eyes</phrase>
+	<phrase weight="0.013157894736842105" count="3">black jacket</phrase>
+	<phrase weight="0.013157894736842105" count="3">linda lee</phrase>
+	<phrase weight="0.008771929824561403" count="2">beneath thin</phrase>
+	<phrase weight="0.008771929824561403" count="2">walked past</phrase>
+	<phrase weight="0.0043859649122807015" count="1">hole thought</phrase>
+	<phrase weight="0.0043859649122807015" count="1">fresh summer</phrase>
+	<phrase weight="0.0043859649122807015" count="1">night brick</phrase>
+	<phrase weight="0.0043859649122807015" count="1">automatically board</phrase>
   </topic>
-  <topic id="22" alpha="0.125" totalTokens="1020" titles="case, eyes, boy, things, looked, left, sat, ">
-	<word weight="0.07745098039215687" count="79">case</word>
-	<word weight="0.04607843137254902" count="47">eyes</word>
-	<word weight="0.03137254901960784" count="32">boy</word>
-	<word weight="0.029411764705882353" count="30">things</word>
-	<word weight="0.026470588235294117" count="27">looked</word>
-	<word weight="0.01764705882352941" count="18">left</word>
-	<word weight="0.014705882352941176" count="15">sat</word>
-	<phrase weight="0.029411764705882353" count="2">shirt underwear</phrase>
-	<phrase weight="0.029411764705882353" count="2">case case</phrase>
-	<phrase weight="0.014705882352941176" count="1">doorway boy</phrase>
-	<phrase weight="0.014705882352941176" count="1">case case looked</phrase>
-	<phrase weight="0.014705882352941176" count="1">armitage real</phrase>
-	<phrase weight="0.014705882352941176" count="1">god things things things case</phrase>
-	<phrase weight="0.014705882352941176" count="1">habitat turkey</phrase>
+  <topic id="22" alpha="2.3505977735028862" totalTokens="6907" titles="case, molly, armitage, back, man, time, told, asked, ">
+	<word weight="0.09570001447806573" count="661">case</word>
+	<word weight="0.02403358911249457" count="166">molly</word>
+	<word weight="0.02084841465180252" count="144">armitage</word>
+	<word weight="0.018676704792239755" count="129">back</word>
+	<word weight="0.01853192413493557" count="128">ll</word>
+	<word weight="0.01693933690458955" count="117">man</word>
+	<word weight="0.01288547850007239" count="89">time</word>
+	<word weight="0.00970030403938034" count="67">told</word>
+	<word weight="0.009410742724771971" count="65">asked</word>
+	<phrase weight="0.006097560975609756" count="7">shook head</phrase>
+	<phrase weight="0.005226480836236934" count="6">case asked</phrase>
+	<phrase weight="0.005226480836236934" count="6">case stared</phrase>
+	<phrase weight="0.005226480836236934" count="6">case watched</phrase>
+	<phrase weight="0.004355400696864111" count="5">molly asked</phrase>
+	<phrase weight="0.004355400696864111" count="5">armitage case</phrase>
+	<phrase weight="0.003484320557491289" count="4">molly case</phrase>
+	<phrase weight="0.002613240418118467" count="3">case decided</phrase>
+	<phrase weight="0.002613240418118467" count="3">inside pocket</phrase>
+	<phrase weight="0.002613240418118467" count="3">ll run</phrase>
   </topic>
-  <topic id="23" alpha="0.125" totalTokens="829" titles="molly, armitage, blue, dark, stared, dead, water, ">
-	<word weight="0.03498190591073583" count="29">molly</word>
-	<word weight="0.032569360675512665" count="27">armitage</word>
-	<word weight="0.025331724969843185" count="21">blue</word>
-	<word weight="0.025331724969843185" count="21">dark</word>
-	<word weight="0.016887816646562123" count="14">stared</word>
-	<word weight="0.016887816646562123" count="14">dead</word>
-	<word weight="0.015681544028950542" count="13">water</word>
-	<phrase weight="0.013513513513513514" count="1">freeside axis</phrase>
-	<phrase weight="0.013513513513513514" count="1">sas airsick</phrase>
-	<phrase weight="0.013513513513513514" count="1">class molly</phrase>
-	<phrase weight="0.013513513513513514" count="1">recoiled avoided</phrase>
-	<phrase weight="0.013513513513513514" count="1">kneeling nah</phrase>
-	<phrase weight="0.013513513513513514" count="1">dark eyes</phrase>
-	<phrase weight="0.013513513513513514" count="1">axis hologram</phrase>
+  <topic id="23" alpha="0.17346970772127657" totalTokens="501" titles="finn, hate, teeth, smell, memory, sign, tweed, access, partagas, ">
+	<word weight="0.15568862275449102" count="78">finn</word>
+	<word weight="0.01996007984031936" count="10">hate</word>
+	<word weight="0.01996007984031936" count="10">teeth</word>
+	<word weight="0.017964071856287425" count="9">smell</word>
+	<word weight="0.015968063872255488" count="8">memory</word>
+	<word weight="0.013972055888223553" count="7">sign</word>
+	<word weight="0.011976047904191617" count="6">tweed</word>
+	<word weight="0.00998003992015968" count="5">access</word>
+	<word weight="0.00998003992015968" count="5">partagas</word>
+	<phrase weight="0.01694915254237288" count="1">metro holografix dusty</phrase>
+	<phrase weight="0.01694915254237288" count="1">smell cuban</phrase>
+	<phrase weight="0.01694915254237288" count="1">scrap paper</phrase>
+	<phrase weight="0.01694915254237288" count="1">streamlined skull peer</phrase>
+	<phrase weight="0.01694915254237288" count="1">crystalline essence</phrase>
+	<phrase weight="0.01694915254237288" count="1">magazines metro</phrase>
+	<phrase weight="0.01694915254237288" count="1">literate access memory</phrase>
+	<phrase weight="0.01694915254237288" count="1">partagas coat</phrase>
+	<phrase weight="0.01694915254237288" count="1">butts partagas</phrase>
+	<phrase weight="0.01694915254237288" count="1">bigger bigger finn</phrase>
   </topic>
-  <topic id="24" alpha="0.125" totalTokens="1035" titles="case, black, back, pulled, red, glasses, boy, ">
-	<word weight="0.06666666666666667" count="69">case</word>
-	<word weight="0.035748792270531404" count="37">black</word>
-	<word weight="0.03285024154589372" count="34">back</word>
-	<word weight="0.01932367149758454" count="20">pulled</word>
-	<word weight="0.018357487922705314" count="19">red</word>
-	<word weight="0.018357487922705314" count="19">glasses</word>
-	<word weight="0.017391304347826087" count="18">boy</word>
-	<phrase weight="0.0196078431372549" count="2">pink hair</phrase>
-	<phrase weight="0.0196078431372549" count="2">winter mute</phrase>
-	<phrase weight="0.0196078431372549" count="2">measure cut</phrase>
-	<phrase weight="0.00980392156862745" count="1">meantime tool</phrase>
-	<phrase weight="0.00980392156862745" count="1">case removed trodes nylon sling waist fastened</phrase>
-	<phrase weight="0.00980392156862745" count="1">dot dull</phrase>
-	<phrase weight="0.00980392156862745" count="1">chiba men blanks</phrase>
+  <topic id="24" alpha="0.15829002143460771" totalTokens="394" titles="cheap, cobra, coffin, plastic, hatch, coffins, ninsei, number, shin, ">
+	<word weight="0.03299492385786802" count="13">cheap</word>
+	<word weight="0.02284263959390863" count="9">cobra</word>
+	<word weight="0.02284263959390863" count="9">coffin</word>
+	<word weight="0.02284263959390863" count="9">plastic</word>
+	<word weight="0.017766497461928935" count="7">hatch</word>
+	<word weight="0.017766497461928935" count="7">coffins</word>
+	<word weight="0.017766497461928935" count="7">ninsei</word>
+	<word weight="0.015228426395939087" count="6">number</word>
+	<word weight="0.015228426395939087" count="6">shin</word>
+	<phrase weight="0.04081632653061224" count="2">burgundy nails</phrase>
+	<phrase weight="0.04081632653061224" count="2">ram hitachi</phrase>
+	<phrase weight="0.02040816326530612" count="1">reassuringly hatch</phrase>
+	<phrase weight="0.02040816326530612" count="1">springs fluorescents</phrase>
+	<phrase weight="0.02040816326530612" count="1">end coffin</phrase>
+	<phrase weight="0.02040816326530612" count="1">calls punched</phrase>
+	<phrase weight="0.02040816326530612" count="1">fluorescents crawled close hatch</phrase>
+	<phrase weight="0.02040816326530612" count="1">shiga sushi stall cradled</phrase>
+	<phrase weight="0.02040816326530612" count="1">cradle punched</phrase>
+	<phrase weight="0.02040816326530612" count="1">grate catwalk</phrase>
   </topic>
-  <topic id="25" alpha="0.125" totalTokens="699" titles="riviera, case, small, hands, picked, raised, glass, ">
-	<word weight="0.12446351931330472" count="87">riviera</word>
-	<word weight="0.08011444921316166" count="56">case</word>
-	<word weight="0.024320457796852647" count="17">small</word>
-	<word weight="0.020028612303290415" count="14">hands</word>
-	<word weight="0.015736766809728183" count="11">picked</word>
-	<word weight="0.015736766809728183" count="11">raised</word>
-	<word weight="0.015736766809728183" count="11">glass</word>
-	<phrase weight="0.04" count="3">marie france</phrase>
-	<phrase weight="0.013333333333333334" count="1">fat cooled</phrase>
-	<phrase weight="0.013333333333333334" count="1">broken glass</phrase>
-	<phrase weight="0.013333333333333334" count="1">reached exposed</phrase>
-	<phrase weight="0.013333333333333334" count="1">reaction case</phrase>
-	<phrase weight="0.013333333333333334" count="1">salsa dreamgirls shuddering</phrase>
-	<phrase weight="0.013333333333333334" count="1">holding bulb</phrase>
+  <topic id="25" alpha="0.10300225107056132" totalTokens="501" titles="deane, julie, gun, desk, son, ginger, office, sort, friends, ">
+	<word weight="0.09780439121756487" count="49">deane</word>
+	<word weight="0.03592814371257485" count="18">julie</word>
+	<word weight="0.01996007984031936" count="10">gun</word>
+	<word weight="0.01996007984031936" count="10">desk</word>
+	<word weight="0.01996007984031936" count="10">son</word>
+	<word weight="0.01996007984031936" count="10">ginger</word>
+	<word weight="0.015968063872255488" count="8">office</word>
+	<word weight="0.013972055888223553" count="7">sort</word>
+	<word weight="0.011976047904191617" count="6">friends</word>
+	<phrase weight="0.03529411764705882" count="3">son deane</phrase>
+	<phrase weight="0.023529411764705882" count="2">swivel chair</phrase>
+	<phrase weight="0.023529411764705882" count="2">preserved ginger</phrase>
+	<phrase weight="0.023529411764705882" count="2">neo aztec bookcases</phrase>
+	<phrase weight="0.023529411764705882" count="2">dali clock</phrase>
+	<phrase weight="0.023529411764705882" count="2">julie deane</phrase>
+	<phrase weight="0.011764705882352941" count="1">neo aztec</phrase>
+	<phrase weight="0.011764705882352941" count="1">suits shirts sex inhumanly patient</phrase>
+	<phrase weight="0.011764705882352941" count="1">drape suit</phrase>
+	<phrase weight="0.011764705882352941" count="1">gun point</phrase>
   </topic>
-  <topic id="26" alpha="0.125" totalTokens="1021" titles="eyes, room, made, hand, back, head, fletcher, ">
-	<word weight="0.03819784524975514" count="39">eyes</word>
-	<word weight="0.03330068560235064" count="34">room</word>
-	<word weight="0.02742409402546523" count="28">made</word>
-	<word weight="0.024485798237022526" count="25">hand</word>
-	<word weight="0.02056807051909892" count="21">back</word>
-	<word weight="0.01860920666013712" count="19">head</word>
-	<word weight="0.01665034280117532" count="17">fletcher</word>
-	<phrase weight="0.030303030303030304" count="3">shook head</phrase>
-	<phrase weight="0.020202020202020204" count="2">small back</phrase>
-	<phrase weight="0.020202020202020204" count="2">restaurant lights</phrase>
-	<phrase weight="0.020202020202020204" count="2">lips moving</phrase>
-	<phrase weight="0.010101010101010102" count="1">deep wrinkled</phrase>
-	<phrase weight="0.010101010101010102" count="1">back lee</phrase>
-	<phrase weight="0.010101010101010102" count="1">legs legs</phrase>
+  <topic id="26" alpha="0.0720197244594665" totalTokens="365" titles="smith, finn, jimmy, family, ninja, tessier, business, law, art, ">
+	<word weight="0.07945205479452055" count="29">smith</word>
+	<word weight="0.043835616438356165" count="16">finn</word>
+	<word weight="0.030136986301369864" count="11">jimmy</word>
+	<word weight="0.024657534246575342" count="9">family</word>
+	<word weight="0.019178082191780823" count="7">ninja</word>
+	<word weight="0.019178082191780823" count="7">tessier</word>
+	<word weight="0.01643835616438356" count="6">business</word>
+	<word weight="0.0136986301369863" count="5">law</word>
+	<word weight="0.0136986301369863" count="5">art</word>
+	<phrase weight="0.016129032258064516" count="1">return smith</phrase>
+	<phrase weight="0.016129032258064516" count="1">request businessman</phrase>
+	<phrase weight="0.016129032258064516" count="1">advised jimmy</phrase>
+	<phrase weight="0.016129032258064516" count="1">smith smith fence balmier</phrase>
+	<phrase weight="0.016129032258064516" count="1">source finn opined</phrase>
+	<phrase weight="0.016129032258064516" count="1">morgues compiled</phrase>
+	<phrase weight="0.016129032258064516" count="1">news morgues</phrase>
+	<phrase weight="0.016129032258064516" count="1">smith careful</phrase>
+	<phrase weight="0.016129032258064516" count="1">jimmy death finn continued smith</phrase>
+	<phrase weight="0.016129032258064516" count="1">colleagues smith finn request</phrase>
   </topic>
-  <topic id="27" alpha="0.125" totalTokens="657" titles="finn, hate, thing, guy, asked, word, christ, ">
-	<word weight="0.167427701674277" count="110">finn</word>
-	<word weight="0.0228310502283105" count="15">hate</word>
-	<word weight="0.0228310502283105" count="15">thing</word>
-	<word weight="0.0167427701674277" count="11">guy</word>
-	<word weight="0.0136986301369863" count="9">asked</word>
-	<word weight="0.0121765601217656" count="8">word</word>
-	<word weight="0.0106544901065449" count="7">christ</word>
-	<phrase weight="0.03636363636363636" count="2">closest thing</phrase>
-	<phrase weight="0.03636363636363636" count="2">smell cuban tobacco</phrase>
-	<phrase weight="0.03636363636363636" count="2">sims tim</phrase>
-	<phrase weight="0.01818181818181818" count="1">chips cost</phrase>
-	<phrase weight="0.01818181818181818" count="1">finn silicon</phrase>
-	<phrase weight="0.01818181818181818" count="1">software beme</phrase>
-	<phrase weight="0.01818181818181818" count="1">dozen cycles</phrase>
+  <topic id="27" alpha="0.2757281892101817" totalTokens="948" titles="wintermute, killed, things, ashpool, tessier, system, mind, death, imagined, ">
+	<word weight="0.05379746835443038" count="51">wintermute</word>
+	<word weight="0.026371308016877638" count="25">killed</word>
+	<word weight="0.020042194092827006" count="19">things</word>
+	<word weight="0.0189873417721519" count="18">ashpool</word>
+	<word weight="0.017932489451476793" count="17">tessier</word>
+	<word weight="0.014767932489451477" count="14">system</word>
+	<word weight="0.013713080168776372" count="13">mind</word>
+	<word weight="0.012658227848101266" count="12">death</word>
+	<word weight="0.011603375527426161" count="11">imagined</word>
+	<phrase weight="0.028037383177570093" count="3">wintermute killed</phrase>
+	<phrase weight="0.028037383177570093" count="3">tessier ashpool</phrase>
+	<phrase weight="0.018691588785046728" count="2">wintermute death</phrase>
+	<phrase weight="0.018691588785046728" count="2">france tessier ashpool</phrase>
+	<phrase weight="0.018691588785046728" count="2">marie france</phrase>
+	<phrase weight="0.009345794392523364" count="1">roof mouth cleaved</phrase>
+	<phrase weight="0.009345794392523364" count="1">thing moves</phrase>
+	<phrase weight="0.009345794392523364" count="1">means care</phrase>
+	<phrase weight="0.009345794392523364" count="1">ve won ve won</phrase>
+	<phrase weight="0.009345794392523364" count="1">pressed hindered</phrase>
   </topic>
-  <topic id="28" alpha="0.125" totalTokens="934" titles="eyes, face, water, walked, voice, light, remembered, ">
-	<word weight="0.029978586723768737" count="28">eyes</word>
-	<word weight="0.023554603854389723" count="22">face</word>
-	<word weight="0.019271948608137045" count="18">water</word>
-	<word weight="0.017130620985010708" count="16">walked</word>
-	<word weight="0.017130620985010708" count="16">voice</word>
-	<word weight="0.016059957173447537" count="15">light</word>
-	<word weight="0.013918629550321198" count="13">remembered</word>
-	<phrase weight="0.0136986301369863" count="1">drugs left</phrase>
-	<phrase weight="0.0136986301369863" count="1">receding cityscape recedes city</phrase>
-	<phrase weight="0.0136986301369863" count="1">fatigues flapping</phrase>
-	<phrase weight="0.0136986301369863" count="1">shorts limbs</phrase>
-	<phrase weight="0.0136986301369863" count="1">ring reproducing</phrase>
-	<phrase weight="0.0136986301369863" count="1">water walked</phrase>
-	<phrase weight="0.0136986301369863" count="1">kidneys survive</phrase>
+  <topic id="28" alpha="0.16585280021451346" totalTokens="407" titles="blue, voice, human, began, systems, blurred, neon, move, spheres, ">
+	<word weight="0.0343980343980344" count="14">blue</word>
+	<word weight="0.02702702702702703" count="11">voice</word>
+	<word weight="0.022113022113022112" count="9">human</word>
+	<word weight="0.022113022113022112" count="9">began</word>
+	<word weight="0.019656019656019656" count="8">systems</word>
+	<word weight="0.0171990171990172" count="7">blurred</word>
+	<word weight="0.0171990171990172" count="7">neon</word>
+	<word weight="0.0171990171990172" count="7">move</word>
+	<word weight="0.014742014742014743" count="6">spheres</word>
+	<phrase weight="0.034482758620689655" count="1">gnarled roots</phrase>
+	<phrase weight="0.034482758620689655" count="1">blue military footage</phrase>
+	<phrase weight="0.034482758620689655" count="1">slipping orgasm</phrase>
+	<phrase weight="0.034482758620689655" count="1">remarkably belonged</phrase>
+	<phrase weight="0.034482758620689655" count="1">alert micromechanical</phrase>
+	<phrase weight="0.034482758620689655" count="1">conceal satisfaction</phrase>
+	<phrase weight="0.034482758620689655" count="1">distinguish move</phrase>
+	<phrase weight="0.034482758620689655" count="1">dimensional space</phrase>
+	<phrase weight="0.034482758620689655" count="1">clouds neon city sphere</phrase>
+	<phrase weight="0.034482758620689655" count="1">program carefully engineered</phrase>
   </topic>
-  <topic id="29" alpha="0.125" totalTokens="946" titles="case, leg, steel, corridor, braun, gray, narrow, ">
-	<word weight="0.05708245243128964" count="54">case</word>
-	<word weight="0.023255813953488372" count="22">leg</word>
-	<word weight="0.023255813953488372" count="22">steel</word>
-	<word weight="0.021141649048625793" count="20">corridor</word>
-	<word weight="0.017970401691331923" count="17">braun</word>
-	<word weight="0.014799154334038054" count="14">gray</word>
-	<word weight="0.014799154334038054" count="14">narrow</word>
-	<phrase weight="0.025974025974025976" count="2">fast forward</phrase>
-	<phrase weight="0.012987012987012988" count="1">case balcony</phrase>
-	<phrase weight="0.012987012987012988" count="1">gray thorax</phrase>
-	<phrase weight="0.012987012987012988" count="1">snapped inside</phrase>
-	<phrase weight="0.012987012987012988" count="1">began piston</phrase>
-	<phrase weight="0.012987012987012988" count="1">drone sight</phrase>
-	<phrase weight="0.012987012987012988" count="1">slipper braun</phrase>
+  <topic id="29" alpha="0.5518614369361985" totalTokens="1403" titles="room, glass, floor, stood, walls, lay, door, narrow, empty, ">
+	<word weight="0.0270848182466144" count="38">room</word>
+	<word weight="0.02565930149679259" count="36">glass</word>
+	<word weight="0.01781895937277263" count="25">floor</word>
+	<word weight="0.01781895937277263" count="25">stood</word>
+	<word weight="0.015680684248039915" count="22">walls</word>
+	<word weight="0.01496792587312901" count="21">lay</word>
+	<word weight="0.01496792587312901" count="21">door</word>
+	<word weight="0.014255167498218105" count="20">narrow</word>
+	<word weight="0.0135424091233072" count="19">empty</word>
+	<phrase weight="0.014084507042253521" count="2">meter intervals</phrase>
+	<phrase weight="0.014084507042253521" count="2">stood brushing</phrase>
+	<phrase weight="0.014084507042253521" count="2">stood square</phrase>
+	<phrase weight="0.007042253521126761" count="1">product rubble</phrase>
+	<phrase weight="0.007042253521126761" count="1">inter zone</phrase>
+	<phrase weight="0.007042253521126761" count="1">amsterdam room</phrase>
+	<phrase weight="0.007042253521126761" count="1">bare walls floor</phrase>
+	<phrase weight="0.007042253521126761" count="1">open glass panels balcony woman</phrase>
+	<phrase weight="0.007042253521126761" count="1">grown gothic</phrase>
+	<phrase weight="0.007042253521126761" count="1">paper paper</phrase>
   </topic>
-  <topic id="30" alpha="0.125" totalTokens="1508" titles="turned, lay, left, held, dark, white, wall, ">
-	<word weight="0.021220159151193633" count="32">turned</word>
-	<word weight="0.021220159151193633" count="32">lay</word>
-	<word weight="0.019230769230769232" count="29">left</word>
-	<word weight="0.01856763925729443" count="28">held</word>
-	<word weight="0.01790450928381963" count="27">dark</word>
-	<word weight="0.01790450928381963" count="27">white</word>
-	<word weight="0.017241379310344827" count="26">wall</word>
-	<phrase weight="0.014705882352941176" count="2">ten meters</phrase>
-	<phrase weight="0.014705882352941176" count="2">wall lay</phrase>
-	<phrase weight="0.014705882352941176" count="2">lay feet</phrase>
-	<phrase weight="0.007352941176470588" count="1">pistol dark</phrase>
-	<phrase weight="0.007352941176470588" count="1">held held held</phrase>
-	<phrase weight="0.007352941176470588" count="1">hearing frag</phrase>
-	<phrase weight="0.007352941176470588" count="1">started corridor</phrase>
+  <topic id="30" alpha="0.3782557240956399" totalTokens="924" titles="place, passed, thing, money, flesh, remembered, running, cigarettes, alley, ">
+	<word weight="0.03354978354978355" count="31">place</word>
+	<word weight="0.02813852813852814" count="26">passed</word>
+	<word weight="0.027056277056277056" count="25">thing</word>
+	<word weight="0.016233766233766232" count="15">money</word>
+	<word weight="0.016233766233766232" count="15">flesh</word>
+	<word weight="0.015151515151515152" count="14">remembered</word>
+	<word weight="0.01406926406926407" count="13">running</word>
+	<word weight="0.012987012987012988" count="12">cigarettes</word>
+	<word weight="0.012987012987012988" count="12">alley</word>
+	<phrase weight="0.014285714285714285" count="1">sort courtyard</phrase>
+	<phrase weight="0.014285714285714285" count="1">girl place</phrase>
+	<phrase weight="0.014285714285714285" count="1">couple months working</phrase>
+	<phrase weight="0.014285714285714285" count="1">cigarettes rooftop</phrase>
+	<phrase weight="0.014285714285714285" count="1">genentech logo</phrase>
+	<phrase weight="0.014285714285714285" count="1">flesh mazes</phrase>
+	<phrase weight="0.014285714285714285" count="1">spun iron railing remembered desiderata</phrase>
+	<phrase weight="0.014285714285714285" count="1">place die</phrase>
+	<phrase weight="0.014285714285714285" count="1">belonged operating</phrase>
+	<phrase weight="0.014285714285714285" count="1">bones remembered flash</phrase>
   </topic>
-  <topic id="31" alpha="0.125" totalTokens="1105" titles="flatline, case, ice, construct, program, kuang, hosaka, ">
-	<word weight="0.04343891402714932" count="48">flatline</word>
-	<word weight="0.03891402714932127" count="43">case</word>
-	<word weight="0.037104072398190045" count="41">ice</word>
-	<word weight="0.03619909502262444" count="40">construct</word>
-	<word weight="0.02895927601809955" count="32">program</word>
-	<word weight="0.026244343891402715" count="29">kuang</word>
-	<word weight="0.024434389140271493" count="27">hosaka</word>
-	<phrase weight="0.03007518796992481" count="4">kuang program</phrase>
-	<phrase weight="0.015037593984962405" count="2">crutch flatline</phrase>
-	<phrase weight="0.015037593984962405" count="2">shark thing</phrase>
-	<phrase weight="0.015037593984962405" count="2">mccoy pauley</phrase>
-	<phrase weight="0.015037593984962405" count="2">case asked</phrase>
-	<phrase weight="0.015037593984962405" count="2">ice ice</phrase>
-	<phrase weight="0.015037593984962405" count="2">listen dix</phrase>
+  <topic id="31" alpha="0.10341030708428335" totalTokens="247" titles="larry, software, moderns, microsoft, switch, body, panther, professional, cyclist, ">
+	<word weight="0.032388663967611336" count="8">larry</word>
+	<word weight="0.020242914979757085" count="5">software</word>
+	<word weight="0.016194331983805668" count="4">moderns</word>
+	<word weight="0.016194331983805668" count="4">microsoft</word>
+	<word weight="0.016194331983805668" count="4">switch</word>
+	<word weight="0.016194331983805668" count="4">body</word>
+	<word weight="0.012145748987854251" count="3">panther</word>
+	<word weight="0.012145748987854251" count="3">professional</word>
+	<word weight="0.008097165991902834" count="2">cyclist</word>
+	<phrase weight="0.02702702702702703" count="1">memory lane</phrase>
+	<phrase weight="0.02702702702702703" count="1">larry larry</phrase>
+	<phrase weight="0.02702702702702703" count="1">shared sensations professional</phrase>
+	<phrase weight="0.02702702702702703" count="1">penned sheets</phrase>
+	<phrase weight="0.02702702702702703" count="1">kebab gravy</phrase>
+	<phrase weight="0.02702702702702703" count="1">krill frightened</phrase>
+	<phrase weight="0.02702702702702703" count="1">slotting microsoft</phrase>
+	<phrase weight="0.02702702702702703" count="1">partner partner panther moderns larry</phrase>
+	<phrase weight="0.02702702702702703" count="1">red sport</phrase>
+	<phrase weight="0.02702702702702703" count="1">slivers microsoft angular fragments colored silicon</phrase>
   </topic>
-  <topic id="32" alpha="0.125" totalTokens="1057" titles="case, linda, place, arcade, crowd, cigarette, ninsei, ">
-	<word weight="0.03405865657521287" count="36">case</word>
-	<word weight="0.021759697256385997" count="23">linda</word>
-	<word weight="0.020813623462630087" count="22">place</word>
-	<word weight="0.01892147587511826" count="20">arcade</word>
-	<word weight="0.017975402081362345" count="19">crowd</word>
-	<word weight="0.014191106906338695" count="15">cigarette</word>
-	<word weight="0.013245033112582781" count="14">ninsei</word>
-	<phrase weight="0.01694915254237288" count="2">door swung</phrase>
-	<phrase weight="0.00847457627118644" count="1">octagon pocket jacket held pill</phrase>
-	<phrase weight="0.00847457627118644" count="1">hear showed</phrase>
-	<phrase weight="0.00847457627118644" count="1">sagged back</phrase>
-	<phrase weight="0.00847457627118644" count="1">quartz halogen floods</phrase>
-	<phrase weight="0.00847457627118644" count="1">hour twenty</phrase>
-	<phrase weight="0.00847457627118644" count="1">hear snake</phrase>
+  <topic id="32" alpha="0.25293334359719866" totalTokens="1263" titles="maelcum, mon, garvey, case, screen, deck, zionite, monitor, mute, ">
+	<word weight="0.0855106888361045" count="108">maelcum</word>
+	<word weight="0.03642121931908155" count="46">mon</word>
+	<word weight="0.030087094220110848" count="38">garvey</word>
+	<word weight="0.027711797307996833" count="35">case</word>
+	<word weight="0.0166270783847981" count="21">screen</word>
+	<word weight="0.015043547110055424" count="19">deck</word>
+	<word weight="0.012668250197941409" count="16">zionite</word>
+	<word weight="0.011876484560570071" count="15">monitor</word>
+	<word weight="0.010292953285827395" count="13">mute</word>
+	<phrase weight="0.028169014084507043" count="6">marcus garvey</phrase>
+	<phrase weight="0.023474178403755867" count="5">mon maelcum</phrase>
+	<phrase weight="0.009389671361502348" count="2">scooter frame</phrase>
+	<phrase weight="0.009389671361502348" count="2">maelcum pilot</phrase>
+	<phrase weight="0.009389671361502348" count="2">cray monitor</phrase>
+	<phrase weight="0.009389671361502348" count="2">texas catheter</phrase>
+	<phrase weight="0.009389671361502348" count="2">red sanyo</phrase>
+	<phrase weight="0.004694835680751174" count="1">purple cotton</phrase>
+	<phrase weight="0.004694835680751174" count="1">ninety minutes</phrase>
+	<phrase weight="0.004694835680751174" count="1">cabin swimming</phrase>
   </topic>
-  <topic id="33" alpha="0.125" totalTokens="984" titles="door, open, felt, wall, switch, time, floor, ">
-	<word weight="0.05589430894308943" count="55">door</word>
-	<word weight="0.041666666666666664" count="41">open</word>
-	<word weight="0.024390243902439025" count="24">felt</word>
-	<word weight="0.021341463414634148" count="21">wall</word>
-	<word weight="0.017276422764227643" count="17">switch</word>
-	<word weight="0.017276422764227643" count="17">time</word>
-	<word weight="0.01524390243902439" count="15">floor</word>
-	<phrase weight="0.023529411764705882" count="2">door open</phrase>
-	<phrase weight="0.023529411764705882" count="2">open door</phrase>
-	<phrase weight="0.023529411764705882" count="2">slid open</phrase>
-	<phrase weight="0.011764705882352941" count="1">door bleeped</phrase>
-	<phrase weight="0.011764705882352941" count="1">mutual grunt unity entered</phrase>
-	<phrase weight="0.011764705882352941" count="1">curved split</phrase>
-	<phrase weight="0.011764705882352941" count="1">hurtled backward</phrase>
+  <topic id="33" alpha="0.09984590695223461" totalTokens="290" titles="port, holograms, dome, octagon, men, tiers, drifting, company, fear, ">
+	<word weight="0.03103448275862069" count="9">port</word>
+	<word weight="0.027586206896551724" count="8">holograms</word>
+	<word weight="0.02413793103448276" count="7">dome</word>
+	<word weight="0.02413793103448276" count="7">octagon</word>
+	<word weight="0.02413793103448276" count="7">men</word>
+	<word weight="0.017241379310344827" count="5">tiers</word>
+	<word weight="0.017241379310344827" count="5">drifting</word>
+	<word weight="0.017241379310344827" count="5">company</word>
+	<word weight="0.013793103448275862" count="4">fear</word>
+	<phrase weight="0.041666666666666664" count="1">aligned blade</phrase>
+	<phrase weight="0.041666666666666664" count="1">operation worked</phrase>
+	<phrase weight="0.041666666666666664" count="1">ring reproducing movements</phrase>
+	<phrase weight="0.041666666666666664" count="1">zaibatsu company housing company</phrase>
+	<phrase weight="0.041666666666666664" count="1">octagon pill</phrase>
+	<phrase weight="0.041666666666666664" count="1">lack urgency arcs</phrase>
+	<phrase weight="0.041666666666666664" count="1">arcologies port</phrase>
+	<phrase weight="0.041666666666666664" count="1">sprayed jugular</phrase>
+	<phrase weight="0.041666666666666664" count="1">designed bypass</phrase>
+	<phrase weight="0.041666666666666664" count="1">grip fencer</phrase>
   </topic>
-  <topic id="34" alpha="0.125" totalTokens="807" titles="corto, man, armitage, straylight, fist, screaming, history, ">
-	<word weight="0.05947955390334572" count="48">corto</word>
-	<word weight="0.03965303593556382" count="32">man</word>
-	<word weight="0.026022304832713755" count="21">armitage</word>
-	<word weight="0.01982651796778191" count="16">straylight</word>
-	<word weight="0.0161090458488228" count="13">fist</word>
-	<word weight="0.0161090458488228" count="13">screaming</word>
-	<word weight="0.01486988847583643" count="12">history</word>
-	<phrase weight="0.06315789473684211" count="6">screaming fist</phrase>
-	<phrase weight="0.010526315789473684" count="1">armitage suite</phrase>
-	<phrase weight="0.010526315789473684" count="1">winds corto</phrase>
-	<phrase weight="0.010526315789473684" count="1">wintermute mistake</phrase>
-	<phrase weight="0.010526315789473684" count="1">codes armitage</phrase>
-	<phrase weight="0.010526315789473684" count="1">dead man</phrase>
-	<phrase weight="0.010526315789473684" count="1">corto colonel</phrase>
+  <topic id="34" alpha="0.08106537996776265" totalTokens="135" titles="intricate, animal, absently, boring, hideo, grav, horse, line, attackers, ">
+	<word weight="0.02962962962962963" count="4">intricate</word>
+	<word weight="0.022222222222222223" count="3">animal</word>
+	<word weight="0.014814814814814815" count="2">absently</word>
+	<word weight="0.014814814814814815" count="2">boring</word>
+	<word weight="0.014814814814814815" count="2">hideo</word>
+	<word weight="0.014814814814814815" count="2">grav</word>
+	<word weight="0.014814814814814815" count="2">horse</word>
+	<word weight="0.014814814814814815" count="2">line</word>
+	<word weight="0.007407407407407408" count="1">attackers</word>
+	<phrase weight="0.25" count="1">chauffeured istanbul</phrase>
+	<phrase weight="0.25" count="1">croak animal</phrase>
+	<phrase weight="0.25" count="1">safety margins</phrase>
+	<phrase weight="0.25" count="1">sight enjoying</phrase>
   </topic>
-  <topic id="35" alpha="0.125" totalTokens="775" titles="chinese, run, long, matrix, huh, ass, sleep, ">
-	<word weight="0.024516129032258065" count="19">chinese</word>
-	<word weight="0.02064516129032258" count="16">run</word>
-	<word weight="0.02064516129032258" count="16">long</word>
-	<word weight="0.02064516129032258" count="16">matrix</word>
-	<word weight="0.01806451612903226" count="14">huh</word>
-	<word weight="0.01806451612903226" count="14">ass</word>
-	<word weight="0.01806451612903226" count="14">sleep</word>
-	<phrase weight="0.03508771929824561" count="2">void matrix</phrase>
-	<phrase weight="0.03508771929824561" count="2">chinese icebreaker</phrase>
-	<phrase weight="0.017543859649122806" count="1">fuck fuck</phrase>
-	<phrase weight="0.017543859649122806" count="1">recombining protean</phrase>
-	<phrase weight="0.017543859649122806" count="1">branded eye</phrase>
-	<phrase weight="0.017543859649122806" count="1">unfolding polychrome shadow</phrase>
-	<phrase weight="0.017543859649122806" count="1">run nin</phrase>
+  <topic id="35" alpha="0.47345711052964184" totalTokens="1353" titles="door, case, man, key, corridor, lock, security, elevator, open, ">
+	<word weight="0.03917220990391722" count="53">door</word>
+	<word weight="0.025868440502586843" count="35">case</word>
+	<word weight="0.023651145602365115" count="32">man</word>
+	<word weight="0.016999260901699925" count="23">key</word>
+	<word weight="0.016260162601626018" count="22">corridor</word>
+	<word weight="0.013303769401330377" count="18">lock</word>
+	<word weight="0.013303769401330377" count="18">security</word>
+	<word weight="0.012564671101256468" count="17">elevator</word>
+	<word weight="0.012564671101256468" count="17">open</word>
+	<phrase weight="0.013986013986013986" count="2">suit kangaroo</phrase>
+	<phrase weight="0.006993006993006993" count="1">toes transportation</phrase>
+	<phrase weight="0.006993006993006993" count="1">top add</phrase>
+	<phrase weight="0.006993006993006993" count="1">loft case</phrase>
+	<phrase weight="0.006993006993006993" count="1">hydraulic members</phrase>
+	<phrase weight="0.006993006993006993" count="1">research materials</phrase>
+	<phrase weight="0.006993006993006993" count="1">panel closed</phrase>
+	<phrase weight="0.006993006993006993" count="1">closed locker door</phrase>
+	<phrase weight="0.006993006993006993" count="1">stained pair</phrase>
+	<phrase weight="0.006993006993006993" count="1">door snapped open</phrase>
   </topic>
-  <topic id="36" alpha="0.125" totalTokens="1180" titles="maelcum, mon, garvey, zion, case, screen, man, ">
-	<word weight="0.1" count="118">maelcum</word>
-	<word weight="0.044915254237288135" count="53">mon</word>
-	<word weight="0.03305084745762712" count="39">garvey</word>
-	<word weight="0.020338983050847456" count="24">zion</word>
-	<word weight="0.020338983050847456" count="24">case</word>
-	<word weight="0.01864406779661017" count="22">screen</word>
-	<word weight="0.017796610169491526" count="21">man</word>
-	<phrase weight="0.04081632653061224" count="8">marcus garvey</phrase>
-	<phrase weight="0.04081632653061224" count="8">mon maelcum</phrase>
-	<phrase weight="0.01020408163265306" count="2">mon zionite</phrase>
-	<phrase weight="0.01020408163265306" count="2">mael cum</phrase>
-	<phrase weight="0.01020408163265306" count="2">russian scrubber</phrase>
-	<phrase weight="0.01020408163265306" count="2">cray monitor</phrase>
-	<phrase weight="0.01020408163265306" count="2">tiles maelcum</phrase>
+  <topic id="36" alpha="0.1754147862919301" totalTokens="449" titles="city, wage, night, sprawl, stars, shuriken, ninsei, clinic, black, ">
+	<word weight="0.0334075723830735" count="15">city</word>
+	<word weight="0.028953229398663696" count="13">wage</word>
+	<word weight="0.028953229398663696" count="13">night</word>
+	<word weight="0.022271714922048998" count="10">sprawl</word>
+	<word weight="0.013363028953229399" count="6">stars</word>
+	<word weight="0.013363028953229399" count="6">shuriken</word>
+	<word weight="0.013363028953229399" count="6">ninsei</word>
+	<word weight="0.013363028953229399" count="6">clinic</word>
+	<word weight="0.013363028953229399" count="6">black</word>
+	<phrase weight="0.06451612903225806" count="4">night city</phrase>
+	<phrase weight="0.016129032258064516" count="1">official night city ninsei</phrase>
+	<phrase weight="0.016129032258064516" count="1">dealing buyer seller</phrase>
+	<phrase weight="0.016129032258064516" count="1">careful disturb</phrase>
+	<phrase weight="0.016129032258064516" count="1">staring shop</phrase>
+	<phrase weight="0.016129032258064516" count="1">stars voyaged destiny spelled</phrase>
+	<phrase weight="0.016129032258064516" count="1">night clinic</phrase>
+	<phrase weight="0.016129032258064516" count="1">lee wage</phrase>
+	<phrase weight="0.016129032258064516" count="1">hypnagogic images jerking</phrase>
+	<phrase weight="0.016129032258064516" count="1">chrome stars</phrase>
   </topic>
-  <topic id="37" alpha="0.125" totalTokens="753" titles="black, place, street, call, made, jacket, tokyo, ">
-	<word weight="0.02656042496679947" count="20">black</word>
-	<word weight="0.02656042496679947" count="20">place</word>
-	<word weight="0.025232403718459494" count="19">street</word>
-	<word weight="0.01859229747675963" count="14">call</word>
-	<word weight="0.01859229747675963" count="14">made</word>
-	<word weight="0.017264276228419653" count="13">jacket</word>
-	<word weight="0.017264276228419653" count="13">tokyo</word>
-	<phrase weight="0.03636363636363636" count="2">wizard castle</phrase>
-	<phrase weight="0.03636363636363636" count="2">tank war</phrase>
-	<phrase weight="0.01818181818181818" count="1">courtyard served place</phrase>
-	<phrase weight="0.01818181818181818" count="1">slept cheaper</phrase>
-	<phrase weight="0.01818181818181818" count="1">coffin cheap</phrase>
-	<phrase weight="0.01818181818181818" count="1">froze instant</phrase>
-	<phrase weight="0.01818181818181818" count="1">watching gulls</phrase>
+  <topic id="37" alpha="0.2761000977265495" totalTokens="429" titles="sky, sleep, freeside, month, burning, dead, spine, watched, matter, ">
+	<word weight="0.05128205128205128" count="22">sky</word>
+	<word weight="0.04195804195804196" count="18">sleep</word>
+	<word weight="0.03263403263403263" count="14">freeside</word>
+	<word weight="0.02097902097902098" count="9">month</word>
+	<word weight="0.02097902097902098" count="9">burning</word>
+	<word weight="0.018648018648018648" count="8">dead</word>
+	<word weight="0.016317016317016316" count="7">spine</word>
+	<word weight="0.016317016317016316" count="7">watched</word>
+	<word weight="0.013986013986013986" count="6">matter</word>
+	<phrase weight="0.06060606060606061" count="2">sleep sleep</phrase>
+	<phrase weight="0.030303030303030304" count="1">tation tumbling</phrase>
+	<phrase weight="0.030303030303030304" count="1">involuntary fists</phrase>
+	<phrase weight="0.030303030303030304" count="1">keys touched</phrase>
+	<phrase weight="0.030303030303030304" count="1">cold sleep</phrase>
+	<phrase weight="0.030303030303030304" count="1">drawing scrap</phrase>
+	<phrase weight="0.030303030303030304" count="1">fuck wig</phrase>
+	<phrase weight="0.030303030303030304" count="1">crois sants</phrase>
+	<phrase weight="0.030303030303030304" count="1">sleeping girl dead</phrase>
+	<phrase weight="0.030303030303030304" count="1">clusters constellations</phrase>
   </topic>
-  <topic id="38" alpha="0.125" totalTokens="768" titles="blood, long, shook, face, found, fingers, steel, ">
-	<word weight="0.037760416666666664" count="29">blood</word>
-	<word weight="0.024739583333333332" count="19">long</word>
-	<word weight="0.022135416666666668" count="17">shook</word>
-	<word weight="0.01953125" count="15">face</word>
-	<word weight="0.01953125" count="15">found</word>
-	<word weight="0.015625" count="12">fingers</word>
-	<word weight="0.014322916666666666" count="11">steel</word>
-	<phrase weight="0.018867924528301886" count="1">fingers brushed</phrase>
-	<phrase weight="0.018867924528301886" count="1">sort subprogram</phrase>
-	<phrase weight="0.018867924528301886" count="1">pocket jeans</phrase>
-	<phrase weight="0.018867924528301886" count="1">mercury skittering striking</phrase>
-	<phrase weight="0.018867924528301886" count="1">blood long trampled scrolls yellow</phrase>
-	<phrase weight="0.018867924528301886" count="1">found pocket</phrase>
-	<phrase weight="0.018867924528301886" count="1">voices voices</phrase>
+  <topic id="38" alpha="0.36515681234690855" totalTokens="636" titles="hotel, white, glasses, weird, nervous, pay, minutes, phone, color, ">
+	<word weight="0.02830188679245283" count="18">hotel</word>
+	<word weight="0.026729559748427674" count="17">white</word>
+	<word weight="0.02358490566037736" count="15">glasses</word>
+	<word weight="0.015723270440251572" count="10">weird</word>
+	<word weight="0.014150943396226415" count="9">nervous</word>
+	<word weight="0.012578616352201259" count="8">pay</word>
+	<word weight="0.012578616352201259" count="8">minutes</word>
+	<word weight="0.0110062893081761" count="7">phone</word>
+	<word weight="0.0110062893081761" count="7">color</word>
+	<phrase weight="0.045454545454545456" count="2">weird weird</phrase>
+	<phrase weight="0.022727272727272728" count="1">quine quine</phrase>
+	<phrase weight="0.022727272727272728" count="1">doorway white</phrase>
+	<phrase weight="0.022727272727272728" count="1">strained white</phrase>
+	<phrase weight="0.022727272727272728" count="1">turn lights</phrase>
+	<phrase weight="0.022727272727272728" count="1">vault uptown</phrase>
+	<phrase weight="0.022727272727272728" count="1">repair damage</phrase>
+	<phrase weight="0.022727272727272728" count="1">torn fingernail</phrase>
+	<phrase weight="0.022727272727272728" count="1">surgical boutique</phrase>
+	<phrase weight="0.022727272727272728" count="1">vacancy pretending crowd carry</phrase>
   </topic>
-  <topic id="39" alpha="0.125" totalTokens="752" titles="thumb, worked, plastic, stepped, shadows, steel, low, ">
-	<word weight="0.026595744680851064" count="20">thumb</word>
-	<word weight="0.022606382978723406" count="17">worked</word>
-	<word weight="0.022606382978723406" count="17">plastic</word>
-	<word weight="0.018617021276595744" count="14">stepped</word>
-	<word weight="0.017287234042553192" count="13">shadows</word>
-	<word weight="0.017287234042553192" count="13">steel</word>
-	<word weight="0.014627659574468085" count="11">low</word>
-	<phrase weight="0.05357142857142857" count="3">thumb forefinger</phrase>
-	<phrase weight="0.03571428571428571" count="2">sign silence</phrase>
-	<phrase weight="0.03571428571428571" count="2">white plastic</phrase>
-	<phrase weight="0.017857142857142856" count="1">stepped shadows</phrase>
-	<phrase weight="0.017857142857142856" count="1">ginger seat</phrase>
-	<phrase weight="0.017857142857142856" count="1">afternoon wasp</phrase>
-	<phrase weight="0.017857142857142856" count="1">glancing holograms</phrase>
+  <topic id="39" alpha="0.15071532546976615" totalTokens="318" titles="tokyo, gold, ring, year, coffee, mirrors, bay, make, programs, ">
+	<word weight="0.02830188679245283" count="9">tokyo</word>
+	<word weight="0.025157232704402517" count="8">gold</word>
+	<word weight="0.018867924528301886" count="6">ring</word>
+	<word weight="0.018867924528301886" count="6">year</word>
+	<word weight="0.015723270440251572" count="5">coffee</word>
+	<word weight="0.015723270440251572" count="5">mirrors</word>
+	<word weight="0.015723270440251572" count="5">bay</word>
+	<word weight="0.015723270440251572" count="5">make</word>
+	<word weight="0.012578616352201259" count="4">programs</word>
+	<phrase weight="0.1" count="2">million megabytes</phrase>
+	<phrase weight="0.05" count="1">previous century</phrase>
+	<phrase weight="0.05" count="1">discovering hallmarks</phrase>
+	<phrase weight="0.05" count="1">intrusion programs</phrase>
+	<phrase weight="0.05" count="1">prototypes programs</phrase>
+	<phrase weight="0.05" count="1">skim military</phrase>
+	<phrase weight="0.05" count="1">gold bracelet flashed</phrase>
+	<phrase weight="0.05" count="1">tokyo previous</phrase>
+	<phrase weight="0.05" count="1">tokyo bay</phrase>
+	<phrase weight="0.05" count="1">cool scale</phrase>
+  </topic>
+  <topic id="40" alpha="0.10199609958464735" totalTokens="420" titles="finn, terzibashjian, bazaar, mercedes, armenian, figure, city, women, iron, ">
+	<word weight="0.0380952380952381" count="16">finn</word>
+	<word weight="0.02857142857142857" count="12">terzibashjian</word>
+	<word weight="0.02142857142857143" count="9">bazaar</word>
+	<word weight="0.02142857142857143" count="9">mercedes</word>
+	<word weight="0.01904761904761905" count="8">armenian</word>
+	<word weight="0.014285714285714285" count="6">figure</word>
+	<word weight="0.014285714285714285" count="6">city</word>
+	<word weight="0.011904761904761904" count="5">women</word>
+	<word weight="0.011904761904761904" count="5">iron</word>
+	<phrase weight="0.01818181818181818" count="1">finn speedball</phrase>
+	<phrase weight="0.01818181818181818" count="1">bazaar buy drugs buy drugs</phrase>
+	<phrase weight="0.01818181818181818" count="1">apartment fener</phrase>
+	<phrase weight="0.01818181818181818" count="1">motive atop rust</phrase>
+	<phrase weight="0.01818181818181818" count="1">shivered terzibashjian brilliant beam</phrase>
+	<phrase weight="0.01818181818181818" count="1">support vat</phrase>
+	<phrase weight="0.01818181818181818" count="1">opposite market</phrase>
+	<phrase weight="0.01818181818181818" count="1">egg lapels</phrase>
+	<phrase weight="0.01818181818181818" count="1">guy figure</phrase>
+	<phrase weight="0.01818181818181818" count="1">broad rock</phrase>
+  </topic>
+  <topic id="41" alpha="0.1278862896549984" totalTokens="381" titles="chip, half, cubicle, dreams, started, blades, terminal, software, count, ">
+	<word weight="0.04199475065616798" count="16">chip</word>
+	<word weight="0.03412073490813648" count="13">half</word>
+	<word weight="0.02099737532808399" count="8">cubicle</word>
+	<word weight="0.02099737532808399" count="8">dreams</word>
+	<word weight="0.01837270341207349" count="7">started</word>
+	<word weight="0.015748031496062992" count="6">blades</word>
+	<word weight="0.015748031496062992" count="6">terminal</word>
+	<word weight="0.015748031496062992" count="6">software</word>
+	<word weight="0.013123359580052493" count="5">count</word>
+	<phrase weight="0.06451612903225806" count="2">half dozen</phrase>
+	<phrase weight="0.03225806451612903" count="1">phone satisfactory</phrase>
+	<phrase weight="0.03225806451612903" count="1">software cooked berlin</phrase>
+	<phrase weight="0.03225806451612903" count="1">chip gender preference</phrase>
+	<phrase weight="0.03225806451612903" count="1">found cubicle</phrase>
+	<phrase weight="0.03225806451612903" count="1">boss clientele</phrase>
+	<phrase weight="0.03225806451612903" count="1">hate hate hate</phrase>
+	<phrase weight="0.03225806451612903" count="1">rapid deployment helicopter</phrase>
+	<phrase weight="0.03225806451612903" count="1">dreams switched software started renting specialty markets</phrase>
+	<phrase weight="0.03225806451612903" count="1">cubicles sound proof</phrase>
+  </topic>
+  <topic id="42" alpha="0.12587261920219614" totalTokens="280" titles="temperfoam, voice, number, phone, clicked, military, view, listened, records, ">
+	<word weight="0.03571428571428571" count="10">temperfoam</word>
+	<word weight="0.03571428571428571" count="10">voice</word>
+	<word weight="0.02857142857142857" count="8">number</word>
+	<word weight="0.02142857142857143" count="6">phone</word>
+	<word weight="0.017857142857142856" count="5">clicked</word>
+	<word weight="0.017857142857142856" count="5">military</word>
+	<word weight="0.014285714285714285" count="4">view</word>
+	<word weight="0.014285714285714285" count="4">listened</word>
+	<word weight="0.014285714285714285" count="4">records</word>
+	<phrase weight="0.047619047619047616" count="1">military facility</phrase>
+	<phrase weight="0.047619047619047616" count="1">hear brazilian</phrase>
+	<phrase weight="0.047619047619047616" count="1">access data</phrase>
+	<phrase weight="0.047619047619047616" count="1">condos terraced slope</phrase>
+	<phrase weight="0.047619047619047616" count="1">temperfoam kolodny</phrase>
+	<phrase weight="0.047619047619047616" count="1">arts faculties</phrase>
+	<phrase weight="0.047619047619047616" count="1">voice joeboy</phrase>
+	<phrase weight="0.047619047619047616" count="1">digit number</phrase>
+	<phrase weight="0.047619047619047616" count="1">chip voice</phrase>
+	<phrase weight="0.047619047619047616" count="1">temperfoam bathroom</phrase>
+  </topic>
+  <topic id="43" alpha="0.13795948354530457" totalTokens="348" titles="johnny, rat, heavy, hole, holster, pick, takes, tight, fit, ">
+	<word weight="0.022988505747126436" count="8">johnny</word>
+	<word weight="0.017241379310344827" count="6">rat</word>
+	<word weight="0.014367816091954023" count="5">heavy</word>
+	<word weight="0.014367816091954023" count="5">hole</word>
+	<word weight="0.011494252873563218" count="4">holster</word>
+	<word weight="0.011494252873563218" count="4">pick</word>
+	<word weight="0.011494252873563218" count="4">takes</word>
+	<word weight="0.011494252873563218" count="4">tight</word>
+	<word weight="0.011494252873563218" count="4">fit</word>
+	<phrase weight="0.03125" count="1">lined dozens</phrase>
+	<phrase weight="0.03125" count="1">takes edge game</phrase>
+	<phrase weight="0.03125" count="1">disciplined activity</phrase>
+	<phrase weight="0.03125" count="1">harness holster</phrase>
+	<phrase weight="0.03125" count="1">armored gauntlet heavy vacuum</phrase>
+	<phrase weight="0.03125" count="1">concrete imported</phrase>
+	<phrase weight="0.03125" count="1">game years</phrase>
+	<phrase weight="0.03125" count="1">rat moves rat moves takes</phrase>
+	<phrase weight="0.03125" count="1">counts crib</phrase>
+	<phrase weight="0.03125" count="1">solder small</phrase>
+  </topic>
+  <topic id="44" alpha="0.18791988418804217" totalTokens="640" titles="straylight, braun, cart, villa, ashpool, gravity, freeside, spindle, leg, ">
+	<word weight="0.0359375" count="23">straylight</word>
+	<word weight="0.028125" count="18">braun</word>
+	<word weight="0.0234375" count="15">cart</word>
+	<word weight="0.0203125" count="13">villa</word>
+	<word weight="0.01875" count="12">ashpool</word>
+	<word weight="0.015625" count="10">gravity</word>
+	<word weight="0.0140625" count="9">freeside</word>
+	<word weight="0.0125" count="8">spindle</word>
+	<word weight="0.0125" count="8">leg</word>
+	<phrase weight="0.06493506493506493" count="5">villa straylight</phrase>
+	<phrase weight="0.025974025974025976" count="2">metro holografix</phrase>
+	<phrase weight="0.012987012987012988" count="1">service cart</phrase>
+	<phrase weight="0.012987012987012988" count="1">spindle rotation gravity</phrase>
+	<phrase weight="0.012987012987012988" count="1">swayed spherical</phrase>
+	<phrase weight="0.012987012987012988" count="1">walls legacy</phrase>
+	<phrase weight="0.012987012987012988" count="1">tap wealth</phrase>
+	<phrase weight="0.012987012987012988" count="1">gate freeside axis</phrase>
+	<phrase weight="0.012987012987012988" count="1">sparks crying</phrase>
+	<phrase weight="0.012987012987012988" count="1">segment spindle empty villa straylight</phrase>
+  </topic>
+  <topic id="45" alpha="0.07475330045541378" totalTokens="467" titles="corto, screaming, history, colonel, fist, war, man, forces, russian, ">
+	<word weight="0.08993576017130621" count="42">corto</word>
+	<word weight="0.027837259100642397" count="13">screaming</word>
+	<word weight="0.02569593147751606" count="12">history</word>
+	<word weight="0.021413276231263382" count="10">colonel</word>
+	<word weight="0.021413276231263382" count="10">fist</word>
+	<word weight="0.021413276231263382" count="10">war</word>
+	<word weight="0.019271948608137045" count="9">man</word>
+	<word weight="0.01284796573875803" count="6">forces</word>
+	<word weight="0.01284796573875803" count="6">russian</word>
+	<phrase weight="0.06349206349206349" count="4">screaming fist</phrase>
+	<phrase weight="0.031746031746031744" count="2">special forces</phrase>
+	<phrase weight="0.015873015873015872" count="1">hell finnish</phrase>
+	<phrase weight="0.015873015873015872" count="1">nightwing microlights</phrase>
+	<phrase weight="0.015873015873015872" count="1">sniffed bloody hell</phrase>
+	<phrase weight="0.015873015873015872" count="1">infrastructure corto</phrase>
+	<phrase weight="0.015873015873015872" count="1">sys tems</phrase>
+	<phrase weight="0.015873015873015872" count="1">history history</phrase>
+	<phrase weight="0.015873015873015872" count="1">rehearsed corto</phrase>
+	<phrase weight="0.015873015873015872" count="1">colonel corto</phrase>
+  </topic>
+  <topic id="46" alpha="0.05765351104701312" totalTokens="355" titles="riviera, stage, restaurant, bed, lights, wine, candles, lake, siecle, ">
+	<word weight="0.07887323943661972" count="28">riviera</word>
+	<word weight="0.028169014084507043" count="10">stage</word>
+	<word weight="0.02535211267605634" count="9">restaurant</word>
+	<word weight="0.022535211267605635" count="8">bed</word>
+	<word weight="0.01971830985915493" count="7">lights</word>
+	<word weight="0.014084507042253521" count="5">wine</word>
+	<word weight="0.011267605633802818" count="4">candles</word>
+	<word weight="0.011267605633802818" count="4">lake</word>
+	<word weight="0.011267605633802818" count="4">siecle</word>
+	<phrase weight="0.03225806451612903" count="2">vingtieme siecle</phrase>
+	<phrase weight="0.016129032258064516" count="1">evening riviera stepping</phrase>
+	<phrase weight="0.016129032258064516" count="1">wine riviera bed</phrase>
+	<phrase weight="0.016129032258064516" count="1">firm balanced</phrase>
+	<phrase weight="0.016129032258064516" count="1">stem wineglass</phrase>
+	<phrase weight="0.016129032258064516" count="1">riviera projections</phrase>
+	<phrase weight="0.016129032258064516" count="1">carnation fin gernails</phrase>
+	<phrase weight="0.016129032258064516" count="1">riviera caressed</phrase>
+	<phrase weight="0.016129032258064516" count="1">greenish purple flashes</phrase>
+	<phrase weight="0.016129032258064516" count="1">dreamblood soaking</phrase>
+  </topic>
+  <topic id="47" alpha="0.08643553960122613" totalTokens="352" titles="arcade, war, games, children, remember, tank, castle, jarre, ">
+	<word weight="0.03409090909090909" count="12">arcade</word>
+	<word weight="0.019886363636363636" count="7">war</word>
+	<word weight="0.017045454545454544" count="6">games</word>
+	<word weight="0.017045454545454544" count="6">children</word>
+	<word weight="0.014204545454545454" count="5">remember</word>
+	<word weight="0.014204545454545454" count="5">tank</word>
+	<word weight="0.014204545454545454" count="5">castle</word>
+	<word weight="0.014204545454545454" count="5">game</word>
+	<word weight="0.014204545454545454" count="5">jarre</word>
+	<phrase weight="0.045454545454545456" count="2">jarre de</phrase>
+	<phrase weight="0.022727272727272728" count="1">headlights oncoming vehicle</phrase>
+	<phrase weight="0.022727272727272728" count="1">wizard castle</phrase>
+	<phrase weight="0.022727272727272728" count="1">cigarettes coughing</phrase>
+	<phrase weight="0.022727272727272728" count="1">death hated</phrase>
+	<phrase weight="0.022727272727272728" count="1">stretching morning</phrase>
+	<phrase weight="0.022727272727272728" count="1">scratches dex</phrase>
+	<phrase weight="0.022727272727272728" count="1">azure munich</phrase>
+	<phrase weight="0.022727272727272728" count="1">loafers cling</phrase>
+	<phrase weight="0.022727272727272728" count="1">tank war europa york skyline</phrase>
+  </topic>
+  <topic id="48" alpha="0.23555497823413052" totalTokens="408" titles="armitage, suit, yonderboy, mr, modern, corporate, sacs, toxin, lupus, ">
+	<word weight="0.06372549019607843" count="26">armitage</word>
+	<word weight="0.03431372549019608" count="14">suit</word>
+	<word weight="0.022058823529411766" count="9">yonderboy</word>
+	<word weight="0.022058823529411766" count="9">mr</word>
+	<word weight="0.0196078431372549" count="8">modern</word>
+	<word weight="0.01715686274509804" count="7">corporate</word>
+	<word weight="0.014705882352941176" count="6">sacs</word>
+	<word weight="0.014705882352941176" count="6">toxin</word>
+	<word weight="0.012254901960784314" count="5">lupus</word>
+	<phrase weight="0.05555555555555555" count="2">toxin sacs</phrase>
+	<phrase weight="0.027777777777777776" count="1">sirens doppler</phrase>
+	<phrase weight="0.027777777777777776" count="1">armitage toxin sacs dissolving</phrase>
+	<phrase weight="0.027777777777777776" count="1">taller modern</phrase>
+	<phrase weight="0.027777777777777776" count="1">job inject</phrase>
+	<phrase weight="0.027777777777777776" count="1">dissolving mycotoxin</phrase>
+	<phrase weight="0.027777777777777776" count="1">modern leader introduced lupus yonderboy</phrase>
+	<phrase weight="0.027777777777777776" count="1">mr armitage</phrase>
+	<phrase weight="0.027777777777777776" count="1">scraped gutter</phrase>
+	<phrase weight="0.027777777777777776" count="1">surgery vibration</phrase>
+  </topic>
+  <topic id="49" alpha="0.1312918962950563" totalTokens="178" titles="funny, shoes, gonna, takes, dealing, mitsubishi, job, arch, brownish, ">
+	<word weight="0.03932584269662921" count="7">funny</word>
+	<word weight="0.033707865168539325" count="6">shoes</word>
+	<word weight="0.02247191011235955" count="4">gonna</word>
+	<word weight="0.016853932584269662" count="3">takes</word>
+	<word weight="0.016853932584269662" count="3">dealing</word>
+	<word weight="0.016853932584269662" count="3">mitsubishi</word>
+	<word weight="0.016853932584269662" count="3">job</word>
+	<word weight="0.011235955056179775" count="2">arch</word>
+	<word weight="0.011235955056179775" count="2">brownish</word>
+	<phrase weight="0.1111111111111111" count="1">takes drudgery</phrase>
+	<phrase weight="0.1111111111111111" count="1">shits takes</phrase>
+	<phrase weight="0.1111111111111111" count="1">thought gonna</phrase>
+	<phrase weight="0.1111111111111111" count="1">fixing program</phrase>
+	<phrase weight="0.1111111111111111" count="1">dreads rastas</phrase>
+	<phrase weight="0.1111111111111111" count="1">compulsion gonna subject</phrase>
+	<phrase weight="0.1111111111111111" count="1">eyeing shred</phrase>
+	<phrase weight="0.1111111111111111" count="1">gonna dealing</phrase>
+	<phrase weight="0.1111111111111111" count="1">plans taxi</phrase>
   </topic>
 </topics>

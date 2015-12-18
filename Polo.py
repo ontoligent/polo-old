@@ -44,13 +44,13 @@ class Polo:
         self.mallet['train-topics']['input'] = self.mallet['import-file']['output']
         self.mallet['train-topics']['output-topic-keys'] = '%s/model-topic-keys.txt' % self.trial_path
         self.mallet['train-topics']['output-doc-topics'] = '%s/model-doc-topics.txt' % self.trial_path
-        self.mallet['train-topics']['topic-word-weights-file'] = '%s/model-topic-word-weights.txt' % self.trial_path
+        #self.mallet['train-topics']['topic-word-weights-file'] = '%s/model-topic-word-weights.txt' % self.trial_path
         self.mallet['train-topics']['word-topic-counts-file'] = '%s/model-word-topic-counts.txt' % self.trial_path
         self.mallet['train-topics']['xml-topic-report'] = '%s/model-topic-report.xml' % self.trial_path
         self.mallet['train-topics']['xml-topic-phrase-report'] = '%s/model-topic-phrase-report.xml' % self.trial_path
 
     def mallet_run_command(self,op):
-        my_cmd = self.cfg['DEFAULT']['mallet_path'] + '/mallet %s' % op
+        my_cmd = self.cfg['DEFAULT']['mallet_path'] + ' %s' % op
         for arg in self.mallet[op]: my_cmd += ' --%s %s' % (arg,self.mallet[op][arg])
         #print('BOO', my_cmd)
         self.cmd_response = os.system(my_cmd)
@@ -67,8 +67,8 @@ class Polo:
             'doc':{'fkeys':(),'defs':{}},
             'topic':{'fkeys':(),'defs':{}},
             'doctopic':{'fkeys':(),'defs':{}},
-            'word':{'fkeys':(),'defs':{}},
-            'topicword':{'fkeys':(),'defs':{}}
+            'wordtopic':{'fkeys':(),'defs':{}},
+            #'topicword':{'fkeys':(),'defs':{}}
             }
         self.tbl_defs['doc']['fkeys'] = ('doc_id', 'doc_label', 'doc_content')
         self.tbl_defs['doc']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', 'doc_content': 'TEXT' }
@@ -76,10 +76,10 @@ class Polo:
         self.tbl_defs['topic']['defs'] = { 'topic_id': 'TEXT', 'topic_alpha': 'REAL', 'topic_words': 'TEXT' }
         self.tbl_defs['doctopic']['fkeys'] = ('doc_id','doc_label','_topics_')
         self.tbl_defs['doctopic']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', '_topics_': 'REAL' }
-        self.tbl_defs['word']['fkeys'] = ('word_id', 'word_str', '_topics_')
-        self.tbl_defs['word']['defs'] = { 'word_id': 'INTEGER', 'word_str': 'TEXT', '_topics_': 'INTEGER' }
-        self.tbl_defs['topicword']['fkeys'] = ( 'word_str', '_topics_')
-        self.tbl_defs['topicword']['defs'] = {'word_str': 'TEXT', '_topics_': 'REAL'}
+        self.tbl_defs['wordtopic']['fkeys'] = ('word_id', 'word_str', '_topics_')
+        self.tbl_defs['wordtopic']['defs'] = { 'word_id': 'INTEGER', 'word_str': 'TEXT', '_topics_': 'INTEGER' }
+        #self.tbl_defs['topicword']['fkeys'] = ( 'word_str', '_topics_')
+        #self.tbl_defs['topicword']['defs'] = {'word_str': 'TEXT', '_topics_': 'REAL'}
         self.tbl_sql = {}
         for table in self.tbl_defs:
             self.tbl_sql[table] = "CREATE TABLE IF NOT EXISTS %s (" % table
@@ -99,8 +99,8 @@ class Polo:
         srcfiles['doc'] = self.mallet['import-file']['input']
         srcfiles['topic'] = self.mallet['train-topics']['output-topic-keys']
         srcfiles['doctopic'] = self.mallet['train-topics']['output-doc-topics']
-        srcfiles['word'] = self.mallet['train-topics']['word-topic-counts-file']
-        srcfiles['topicword'] = self.mallet['train-topics']['topic-word-weights-file']
+        srcfiles['wordtopic'] = self.mallet['train-topics']['word-topic-counts-file']
+        #srcfiles['topicword'] = self.mallet['train-topics']['topic-word-weights-file']
         
         db_file = 'projects/%s/trials/%s/%s-%s.db' % (self.project,self.trial,self.project,self.trial)
         with sqlite3.connect(db_file) as conn:
@@ -165,12 +165,19 @@ class Polo:
     		
                         if table == 'doctopic':
                             row = line.split('\t')
-                            info = row[1].split(',') # Grab the topic_id and count
+                            info = row[1].split(',') 
                             values.append("'%s'" % info[0]) # doc_id
                             values.append("'%s'" % info[1]) # doc_label
-                            for i in range(int(n)): values.append(row[i+2]) # tx
+                            tws = []
+                            for i in range(int(n)): tws.append('NULL')
+                            for i in range(2,int(n)*2,2): 
+                                tn = int(row[int(i)])
+                                tw = row[int(i)+1]
+                                tws[tn] = tw
+                            for tw in tws:
+                                values.append(tw)
     		
-                        elif table == 'word':
+                        elif table == 'wordtopic':
                             row = line.split(' ')
                             values.append('%s' % row[0]) # word_id
                             values.append("'%s'" % row[1].replace("'","''")) # word_str
@@ -189,8 +196,8 @@ class Polo:
                             values.append('%s' % row[1]) # topic_alpha
                             values.append("'%s'" % row[2].replace("'","''")) # topic_list
     		
-                        elif table == 'topicword':
-                            continue # This is handled above
+                        #elif table == 'topicword':
+                        #    continue # This is handled above
     		
                         elif table == 'doc':
                             row = line.split(',')
@@ -198,7 +205,7 @@ class Polo:
                             values.append("'%s'" % row[0]) # doc_id
                             values.append("'%s'" % row[1]) # doc_label
                             values.append("'%s'" % doc_content) # doc_content
-                            
+                        
                         value_str = ','.join(values)
                         sql2 = 'INSERT INTO `%s` (%s) VALUES (%s)' % (table,field_str,value_str)
                         cur.execute(sql2)
@@ -243,11 +250,11 @@ if __name__ == '__main__':
 
     # Run mallet to create the mallet file
     print('HEY Importing mallet file')
-    p.mallet_import()
+    #p.mallet_import()
     
     # Run mallet to generate the model
     print('HEY Training topics')
-    p.mallet_train()
+    #p.mallet_train()
 
     # MALLET -> SQLITE
     
