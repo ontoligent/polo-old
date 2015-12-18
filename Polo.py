@@ -12,7 +12,8 @@ To do:
    or else a database with a TRIAL table. Config files are fine to process but lack control.
 '''
 
-import sys, os, re, configparser, sqlite3, codecs, xmltodict
+import sys, os, re, configparser, sqlite3, codecs
+from lxml import etree
 
 class Polo:
 
@@ -111,7 +112,6 @@ class Polo:
             cur = conn.cursor()
                     
             # Import the CSV files
-            #for table in self.tbl_sql:
             for table in srcfiles['csv']:
                 print('BOO csv',table)
 
@@ -122,8 +122,8 @@ class Polo:
                 
                 # Open the source file
                 src_file = srcfiles['csv'][table]
-                with codecs.open(src_file, "r", encoding='utf-8', errors='ignore') as src_data:
-                # with open(src_file,'r') as src_data:
+                #with codecs.open(src_file, "r", encoding='utf-8', errors='ignore') as src_data:
+                with open(src_file,'r') as src_data:
                     print('BOO',src_file)
                 
                     # Handle special case of topicword
@@ -159,7 +159,7 @@ class Polo:
                             for i in range(int(n)): fields.append('t'+str(i))
                         else: fields.append(field)
                     field_str = ','.join(fields)
-                    print('BOO',field_str)
+                    print('BOO Field Str:',field_str)
                         
                     # Generate the value string, then insert
                     for line in src_data.readlines():
@@ -170,10 +170,10 @@ class Polo:
                         if table == 'doctopic':
                             row = line.split('\t')
                             info = row[1].split(',') 
-                            values.append("'%s'" % info[0]) # doc_id
-                            values.append("'%s'" % info[1]) # doc_label
+                            values.append(info[0]) # doc_id
+                            values.append(info[1]) # doc_label
                             tws = []
-                            for i in range(int(n)): tws.append('NULL')
+                            for i in range(int(n)): tws.append(0)
                             for i in range(2,int(n)*2,2): 
                                 tn = int(row[int(i)])
                                 tw = row[int(i)+1]
@@ -183,65 +183,64 @@ class Polo:
     		
                         elif table == 'wordtopic':
                             row = line.split(' ')
-                            values.append('%s' % row[0]) # word_id
-                            values.append("'%s'" % row[1].replace("'","''")) # word_str
+                            values.append(row[0]) # word_id
+                            values.append(row[1]) # word_str
                             counts = {} # word_counts
                             for x in row[2:]:
                                 y = x.split(':') # y[0] = topic num, y[1] = word count
                                 counts[str(y[0])] = y[1]
                             for i in range(int(n)):
                                 tn = str(i)
-                                if tn in counts.keys(): values.append('%s' % counts[tn])
-                                else: values.append('0')
+                                if tn in counts.keys(): values.append(counts[tn])
+                                else: values.append(0)
     
                         elif table == 'topic':
                             row = line.split('\t')
-                            values.append("'t%s'" % row[0]) # topic_id
-                            values.append('%s' % row[1]) # topic_alpha
-                            values.append("'%s'" % row[2].replace("'","''")) # topic_list
-                            values.append('0') # Place holder for total_tokens until XML file is handled
+                            values.append('t%s' % row[0]) # topic_id
+                            values.append(row[1]) # topic_alpha
+                            values.append(row[2]) # topic_list
+                            values.append(0) # Place holder for total_tokens until XML file is handled
     		                          
                         #elif table == 'topicword':
                         #    continue # This is handled above
     		
                         elif table == 'doc':
                             row = line.split(',')
-                            doc_content = row[2].replace("'","''")
-                            values.append("'%s'" % row[0]) # doc_id
-                            values.append("'%s'" % row[1]) # doc_label
-                            values.append("'%s'" % doc_content) # doc_content
+                            values.append(row[0]) # doc_id
+                            values.append(row[1]) # doc_label
+                            values.append(row[2]) # doc_content
                         
-                        value_str = ','.join(values)
-                        sql2 = 'INSERT INTO `%s` (%s) VALUES (%s)' % (table,field_str,value_str)
-                        cur.execute(sql2)
+                        args = []
+                        for i in range(len(values)): args.append('?')
+                        arg_str = ','.join(args) 
+                        sql2 = 'INSERT INTO `%s` (%s) VALUES (%s)' % (table,field_str,arg_str)
+                        cur.execute(sql2,values)
     		
-                conn.commit() # Commit after each table
+                    conn.commit() # Commit after each table
             
             for table in srcfiles['xml']:
                 print('BOO xml',table)
-                
                 if table == 'topicphrase':
                     # Drop or truncate the table and then create it again
                     cur.execute('DROP TABLE IF EXISTS %s' % table)
                     cur.execute(self.tbl_sql[table])
                     conn.commit()
                     with open(srcfiles['xml'][table]) as fd:
-                        obj = xmltodict.parse(fd.read())
-                        for topic in obj['topics']['topic']:
-                            topic_id = topic['@id']
-                            total_tokens = topic['@totalTokens']
+                        tree = etree.parse(fd)
+                        for topic in tree.xpath('/topics/topic'):
+                            topic_id = topic.xpath('@id')[0]
+                            total_tokens = topic.xpath('@totalTokens')[0]
                             sql1 = "UPDATE topic SET total_tokens = ? WHERE topic_id = ?"
                             cur.execute(sql1,[total_tokens,topic_id])                            
-                            for phrase in topic['phrase']:
-                                phrase_weight = phrase['@weight']
-                                phrase_count = phrase['@count']
-                                phrase_string = phrase['#text']
+                            for phrase in topic.xpath('phrase'):
+                                phrase_weight = phrase.xpath('@weight')[0]
+                                phrase_count = phrase.xpath('@count')[0]
+                                topic_phrase = phrase.xpath('text()')[0]
                                 sql2 = 'INSERT INTO topicphrase (topic_id,topic_phrase,phrase_count,phrase_weight) VALUES (?,?,?,?)'
-                                cur.execute(sql2,[topic_id,phrase_string,phrase_count,phrase_weight])
-                conn.commit()
-                
+                                cur.execute(sql2,[topic_id,topic_phrase,phrase_count,phrase_weight])        
+                    conn.commit()
+                    
             cur.close()
-
         return 1
 
 if __name__ == '__main__':
@@ -279,11 +278,11 @@ if __name__ == '__main__':
 
     # Run mallet to create the mallet file
     print('HEY Importing mallet file')
-    #p.mallet_import()
+    p.mallet_import()
     
     # Run mallet to generate the model
     print('HEY Training topics')
-    #p.mallet_train()
+    p.mallet_train()
 
     # MALLET -> SQLITE
     
