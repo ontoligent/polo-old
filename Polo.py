@@ -53,7 +53,7 @@ class Polo:
     def mallet_run_command(self,op):
         my_cmd = self.cfg['DEFAULT']['mallet_path'] + ' %s' % op
         for arg in self.mallet[op]: my_cmd += ' --%s %s' % (arg,self.mallet[op][arg])
-        #print('BOO', my_cmd)
+        #print('HEY Running:', my_cmd)
         self.cmd_response = os.system(my_cmd)
 
     def mallet_import(self):
@@ -113,7 +113,7 @@ class Polo:
                     
             # Import the CSV files
             for table in srcfiles['csv']:
-                print('BOO csv',table)
+                print('HEY Loading table',table)
 
                 # Drop or truncate the table
                 cur.execute('DROP TABLE IF EXISTS %s' % table)
@@ -124,7 +124,7 @@ class Polo:
                 src_file = srcfiles['csv'][table]
                 #with codecs.open(src_file, "r", encoding='utf-8', errors='ignore') as src_data:
                 with open(src_file,'r') as src_data:
-                    print('BOO',src_file)
+                    print('HEY Loading csv file',src_file)
                 
                     # Handle special case of topicword
                     '''
@@ -159,7 +159,7 @@ class Polo:
                             for i in range(int(n)): fields.append('t'+str(i))
                         else: fields.append(field)
                     field_str = ','.join(fields)
-                    print('BOO Field Str:',field_str)
+                    print('HEY Fields:',field_str)
                         
                     # Generate the value string, then insert
                     for line in src_data.readlines():
@@ -219,13 +219,15 @@ class Polo:
                     conn.commit() # Commit after each table
             
             for table in srcfiles['xml']:
-                print('BOO xml',table)
+                print('HEY Loading table',table)
                 if table == 'topicphrase':
                     # Drop or truncate the table and then create it again
                     cur.execute('DROP TABLE IF EXISTS %s' % table)
                     cur.execute(self.tbl_sql[table])
                     conn.commit()
-                    with open(srcfiles['xml'][table]) as fd:
+                    src_file = srcfiles['xml'][table]
+                    with open(src_file) as fd:
+                        print('HEY Parsing xml file', src_file)
                         tree = etree.parse(fd)
                         for topic in tree.xpath('/topics/topic'):
                             topic_id = 't'+topic.xpath('@id')[0]
