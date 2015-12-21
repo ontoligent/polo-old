@@ -17,10 +17,11 @@ from lxml import etree
 
 class Polo:
 
-    def __init__(self,project,trial):
+    def __init__(self,project,trial,base_path='projects'):
         self.project = project
         self.trial = trial
-        self.project_path = 'projects/%s' % self.project
+        self.base_path = base_path
+        self.project_path = '%s/%s' % (self.base_path, self.project)
         self.trial_path = '%s/trials/%s' % (self.project_path,self.trial)
         self.import_config()
         self.init_mallet()
@@ -179,9 +180,8 @@ class Polo:
                                 tw = float(row[int(i)+1])
                                 tws[tn] = tw
                                 if tw != 0: H += tw * math.log(tw)
-                            values.append(-1 * H) # topic_entropy -- Added
-                            for tw in tws:
-                                values.append(tw)
+                            values.append(-1 * H) # topic_entropy
+                            for tw in tws: values.append(tw) # topic weights (t1 ... tn)
     		
                         elif table == 'wordtopic':
                             row = line.split(' ')
@@ -223,7 +223,6 @@ class Polo:
             for table in srcfiles['xml']:
                 print('HEY Loading table',table)
                 if table == 'topicphrase':
-                    # Drop or truncate the table and then create it again
                     cur.execute('DROP TABLE IF EXISTS %s' % table)
                     cur.execute(self.tbl_sql[table])
                     conn.commit()
