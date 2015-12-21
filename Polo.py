@@ -12,7 +12,7 @@ To do:
    or else a database with a TRIAL table. Config files are fine to process but lack control.
 '''
 
-import sys, os, re, configparser, sqlite3, codecs
+import sys, os, re, configparser, sqlite3, codecs, math
 from lxml import etree
 
 class Polo:
@@ -76,8 +76,8 @@ class Polo:
         self.tbl_defs['doc']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', 'doc_content': 'TEXT' }
         self.tbl_defs['topic']['fkeys'] = ('topic_id','topic_alpha','topic_words','total_tokens')
         self.tbl_defs['topic']['defs'] = { 'topic_id': 'TEXT', 'topic_alpha': 'REAL', 'total_tokens': 'INTEGER', 'topic_words': 'TEXT' }
-        self.tbl_defs['doctopic']['fkeys'] = ('doc_id','doc_label','_topics_')
-        self.tbl_defs['doctopic']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', '_topics_': 'REAL' }
+        self.tbl_defs['doctopic']['fkeys'] = ('doc_id','doc_label','topic_entropy','_topics_')
+        self.tbl_defs['doctopic']['defs'] = { 'doc_id': 'TEXT', 'doc_label': 'TEXT', 'topic_entropy': 'REAL', '_topics_': 'REAL' }
         self.tbl_defs['wordtopic']['fkeys'] = ('word_id', 'word_str', '_topics_')
         self.tbl_defs['wordtopic']['defs'] = { 'word_id': 'INTEGER', 'word_str': 'TEXT', '_topics_': 'INTEGER' }
         self.tbl_defs['topicphrase']['fkeys'] = ('topic_id', 'topic_phrase','phrase_count', 'phrase_weight')
@@ -172,12 +172,14 @@ class Polo:
                             info = row[1].split(',') 
                             values.append(info[0]) # doc_id
                             values.append(info[1]) # doc_label
-                            tws = []
-                            for i in range(int(n)): tws.append(0)
+                            H = 0 # Entropy
+                            tws = [0 for i in range(int(n))]
                             for i in range(2,int(n)*2,2): 
                                 tn = int(row[int(i)])
-                                tw = row[int(i)+1]
+                                tw = float(row[int(i)+1])
                                 tws[tn] = tw
+                                if tw != 0: H += tw * math.log(tw)
+                            values.append(-1 * H) # topic_entropy -- Added
                             for tw in tws:
                                 values.append(tw)
     		
@@ -241,7 +243,7 @@ class Polo:
                                 sql2 = 'INSERT INTO topicphrase (topic_id,topic_phrase,phrase_count,phrase_weight) VALUES (?,?,?,?)'
                                 cur.execute(sql2,[topic_id,topic_phrase,phrase_count,phrase_weight])        
                     conn.commit()
-                    
+                                    
             cur.close()
         return 1
 
